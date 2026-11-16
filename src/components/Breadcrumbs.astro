@@ -1,0 +1,6 @@
+---
+import { ancestors, href, type Page } from '../lib/content';
+interface Props { page: Page }
+const { page } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="Ruta de navegación"><ol>{ancestors(page).map(p => <li><a href={href(p)}>{p.type === 'home' ? 'Inicio' : p.title}</a></li>)}<li aria-current="page">{page.title}</li></ol></nav>

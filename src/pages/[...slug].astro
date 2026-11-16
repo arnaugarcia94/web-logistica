@@ -1,0 +1,14 @@
+---
+import { pages } from '../lib/content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Home from '../templates/Home.astro';
+import Hub from '../templates/Hub.astro';
+import Subvertical from '../templates/Subvertical.astro';
+import Informative from '../templates/Informative.astro';
+export function getStaticPaths() { return pages.map(page => ({ params: { slug: page.slug || undefined }, props: { page } })); }
+const { page } = Astro.props;
+const templates = { home: Home, hub: Hub, subvertical: Subvertical, informativa: Informative };
+const Template = templates[page.type];
+---
+<BaseLayout page={page}>{page.type === 'home' ? <Template page={page} /> : <div class="container inner-page"><Breadcrumbs page={page} /><p class="draft-notice">Ejemplo provisional · Estructura y contenido pendientes de revisión.</p><Template page={page} /></div>}</BaseLayout>

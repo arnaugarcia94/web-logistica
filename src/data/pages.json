@@ -1,0 +1,114 @@
+[
+  {
+    "id": "inicio",
+    "slug": "",
+    "parentId": null,
+    "type": "home",
+    "title": "Logística, con perspectiva",
+    "description": "Un punto de partida para entender el transporte, las operaciones y la cadena de suministro.",
+    "seoTitle": "Logística, con perspectiva | Logística",
+    "order": 0,
+    "status": "draft",
+    "sections": []
+  },
+  {
+    "id": "transporte",
+    "slug": "transporte",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Transporte de mercancías",
+    "description": "Explora cómo se organiza el movimiento de mercancías y qué conceptos ayudan a entenderlo.",
+    "seoTitle": "Transporte de mercancías | Logística",
+    "order": 1,
+    "status": "draft",
+    "sections": []
+  },
+  {
+    "id": "almacenaje",
+    "slug": "almacenaje",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Almacenaje y operaciones",
+    "description": "Una introducción a los espacios, procesos y decisiones que conectan el almacén con la distribución.",
+    "seoTitle": "Almacenaje y operaciones | Logística",
+    "order": 2,
+    "status": "draft",
+    "sections": []
+  },
+  {
+    "id": "maritimo",
+    "slug": "transporte/maritimo",
+    "parentId": "transporte",
+    "type": "subvertical",
+    "title": "Transporte marítimo",
+    "description": "Conceptos iniciales para comprender el transporte de mercancías por mar.",
+    "seoTitle": "Transporte marítimo | Logística",
+    "order": 3,
+    "status": "draft",
+    "sections": []
+  },
+  {
+    "id": "operaciones",
+    "slug": "almacenaje/operaciones",
+    "parentId": "almacenaje",
+    "type": "subvertical",
+    "title": "Operaciones de almacén",
+    "description": "Conoce las etapas que recorren los productos dentro de un almacén.",
+    "seoTitle": "Operaciones de almacén | Logística",
+    "order": 4,
+    "status": "draft",
+    "sections": []
+  },
+  {
+    "id": "contenedor",
+    "slug": "transporte/maritimo/que-es-un-contenedor",
+    "parentId": "maritimo",
+    "type": "informativa",
+    "title": "Qué es un contenedor",
+    "description": "Una primera aproximación a la unidad de carga que facilita el transporte de mercancías.",
+    "seoTitle": "Qué es un contenedor | Logística",
+    "order": 5,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Una unidad para agrupar mercancías",
+        "paragraphs": [
+          "Un contenedor es una unidad de carga reutilizable que permite agrupar mercancías y facilitar su manipulación durante el transporte.",
+          "Su uso puede conectar diferentes medios de transporte sin manipular cada bulto de forma individual. La elección del equipo depende de las características de la carga."
+        ]
+      },
+      {
+        "heading": "Qué desarrollar en esta guía",
+        "paragraphs": [
+          "La versión definitiva podrá explicar tipos de contenedor, usos y criterios de selección, con fuentes revisadas y ejemplos. Este texto es una muestra de la plantilla."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "picking",
+    "slug": "almacenaje/operaciones/que-es-el-picking",
+    "parentId": "operaciones",
+    "type": "informativa",
+    "title": "Qué es el picking",
+    "description": "Una explicación introductoria sobre la preparación de pedidos en el almacén.",
+    "seoTitle": "Qué es el picking | Logística",
+    "order": 6,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Preparar los productos de un pedido",
+        "paragraphs": [
+          "El picking consiste en seleccionar y recoger los productos necesarios para preparar un pedido. Forma parte de las operaciones habituales de un almacén.",
+          "La organización de las ubicaciones y la identificación de los productos influyen en cómo se realiza esta tarea."
+        ]
+      },
+      {
+        "heading": "Qué desarrollar en esta guía",
+        "paragraphs": [
+          "La versión definitiva podrá explicar métodos de preparación, etapas y conceptos relacionados, con fuentes revisadas. Este texto es una muestra de la plantilla."
+        ]
+      }
+    ]
+  }
+]

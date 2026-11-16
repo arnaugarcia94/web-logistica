@@ -1,0 +1,4 @@
+---
+import { children, href } from '../lib/content';
+---
+<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Logística, inicio"><span class="brand-mark" aria-hidden="true">↗</span> logística<span class="brand-dot">.</span></a><nav aria-label="Navegación principal"><a href="/">Inicio</a>{children('inicio').map(p => <a href={href(p)} aria-current={Astro.url.pathname.startsWith(href(p)) ? 'true' : undefined}>{p.title.split(' ')[0]}</a>)}</nav><span class="header-note">CONOCIMIENTO INDEPENDIENTE</span></div></header>

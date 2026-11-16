@@ -1,0 +1,8 @@
+---
+import Cards from '../components/Cards.astro';
+import ContextNav from '../components/ContextNav.astro';
+import { children, type Page } from '../lib/content';
+interface Props { page: Page }
+const { page } = Astro.props;
+---
+<div class="page-heading"><p class="eyebrow">Tema de conocimiento</p><h1>{page.title}</h1><p class="lead">{page.description}</p></div><div class="content-grid"><section><h2>Explora este {page.type === 'hub' ? 'área' : 'tema'}</h2><p>Continúa con las guías introductorias de este tema.</p><Cards pages={children(page.id)} /></section><ContextNav page={page} /></div>

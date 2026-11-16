@@ -1,0 +1,8 @@
+---
+import { children, pages, href, type Page } from '../lib/content';
+interface Props { page: Page }
+const { page } = Astro.props;
+const parent = pages.find(p => p.id === page.parentId);
+const items = children(page.id).length ? children(page.id) : parent ? children(parent.id) : [];
+---
+<aside class="context-nav"><span class="eyebrow">En esta sección</span><h2>{parent && page.type === 'informativa' ? parent.title : page.title}</h2><nav aria-label="Navegación contextual"><ul>{items.map(p => <li><a href={href(p)} aria-current={p.id === page.id ? 'page' : undefined}>{p.title}<span aria-hidden="true">↗</span></a></li>)}</ul></nav>{parent && <a class="back-link" href={href(parent)}>← {parent.type === 'home' ? 'Todos los temas' : parent.title}</a>}</aside>
