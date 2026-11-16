@@ -1,3 +1,4 @@
+# Astro está en la raíz del repositorio; dejar Base directory vacío en Netlify.
 [build]
   command = "npm run build"
   publish = "dist"
