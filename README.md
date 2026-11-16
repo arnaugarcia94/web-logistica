@@ -54,4 +54,15 @@ Copia `.env.example` a `.env` si necesitas configurar el entorno. `SITE_URL` def
 
 Todas las muestras tienen `status: draft` y emiten `noindex, follow`. Para indexar una página deben cumplirse ambas condiciones: contenido revisado con `status: published` y `SITE_INDEXABLE=true`. `robots.txt` permite el rastreo para que los motores puedan leer `noindex`; el sitemap incluye las siete rutas de muestra para verificar la integración. Revisar esta política antes del lanzamiento.
 
-El proyecto usa la [integración oficial de sitemap de Astro](https://docs.astro.build/en/guides/integrations-guide/sitemap/). La subida del código a GitHub no despliega la web; no hay publicación automática configurada.
+El proyecto usa la [integración oficial de sitemap de Astro](https://docs.astro.build/en/guides/integrations-guide/sitemap/). La subida del código a GitHub no despliega la web; Netlify permite activar el despliegue automático al vincular el repositorio.
+
+## Despliegue en Netlify
+
+Importa `arnaugarcia94/web-logistica` desde GitHub y selecciona la rama `main`.
+`netlify.toml` configura Node 24, `npm run build` y el directorio `dist`.
+No se necesita adaptador de servidor: el portal es estático.
+
+La URL canónica se resuelve en este orden: `SITE_URL` explícita, `SITE_URL` del archivo .env, variable `URL` de Netlify y marcador local `https://example.com`.
+Netlify proporciona `URL` durante la compilación. Si añades un dominio propio, revisa la URL y vuelve a desplegar; puedes fijarla con `SITE_URL` en Netlify.
+Se mantiene `SITE_INDEXABLE=false` y el estado `draft` de las siete muestras.
+Los commits posteriores en `main` podrán activar nuevos despliegues una vez vinculado el proyecto.
