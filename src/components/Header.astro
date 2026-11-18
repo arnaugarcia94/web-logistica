@@ -1,4 +1,25 @@
 ---
 import { children, href } from '../lib/content';
+const areas = children('inicio');
 ---
-<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Logística, inicio"><span class="brand-mark" aria-hidden="true">↗</span> logística<span class="brand-dot">.</span></a><nav aria-label="Navegación principal"><a href="/">Inicio</a>{children('inicio').map(p => <a href={href(p)} aria-current={Astro.url.pathname.startsWith(href(p)) ? 'true' : undefined}>{p.title.split(' ')[0]}</a>)}</nav><span class="header-note">CONOCIMIENTO INDEPENDIENTE</span></div></header>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Logística, inicio"><span class="brand-mark" aria-hidden="true">↗</span> logística<span class="brand-dot">.</span></a>
+    <nav aria-label="Navegación principal">
+      <details class="area-menu">
+        <summary>Áreas de logística</summary>
+        <ul>
+          {areas.map(area => <li><a href={href(area)} aria-current={Astro.url.pathname === href(area) ? 'page' : undefined}>{area.title}</a></li>)}
+        </ul>
+      </details>
+    </nav>
+    <span class="header-note">CONOCIMIENTO INDEPENDIENTE</span>
+  </div>
+</header>
+<style>
+  .area-menu { position: relative; }
+  summary { cursor: pointer; padding: .65rem 0; }
+  ul { position: absolute; z-index: 3; top: 100%; left: 0; width: max-content; max-width: calc(100vw - 36px); margin: 0; padding: .75rem 1rem; list-style: none; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); box-shadow: 0 4px 12px #193c371a; }
+  li a { display: block; padding: .5rem 0; }
+  @media (max-width: 640px) { ul { left: auto; right: 0; } }
+</style>

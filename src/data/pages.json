@@ -4,109 +4,4613 @@
     "slug": "",
     "parentId": null,
     "type": "home",
-    "title": "Logística, con perspectiva",
-    "description": "Un punto de partida para entender el transporte, las operaciones y la cadena de suministro.",
-    "seoTitle": "Logística, con perspectiva | Logística",
+    "title": "Entender la logística",
+    "seoTitle": "Logística y cadena de suministro | Portal informativo",
+    "description": "Explora 13 áreas de logística, desde almacenes, inventario y transporte hasta tecnología, aduanas y sostenibilidad.",
     "order": 0,
     "status": "draft",
     "sections": []
   },
   {
-    "id": "transporte",
-    "slug": "transporte",
+    "id": "1",
+    "slug": "logistica",
     "parentId": "inicio",
     "type": "hub",
-    "title": "Transporte de mercancías",
-    "description": "Explora cómo se organiza el movimiento de mercancías y qué conceptos ayudan a entenderlo.",
-    "seoTitle": "Transporte de mercancías | Logística",
+    "title": "Logística",
+    "keyword": "logística",
+    "seoTitle": "Logística: guía, conceptos y áreas clave",
+    "description": "La logística coordina el movimiento y el almacenamiento de mercancías y la información que los acompaña.",
     "order": 1,
-    "status": "draft",
-    "sections": []
-  },
-  {
-    "id": "almacenaje",
-    "slug": "almacenaje",
-    "parentId": "inicio",
-    "type": "hub",
-    "title": "Almacenaje y operaciones",
-    "description": "Una introducción a los espacios, procesos y decisiones que conectan el almacén con la distribución.",
-    "seoTitle": "Almacenaje y operaciones | Logística",
-    "order": 2,
-    "status": "draft",
-    "sections": []
-  },
-  {
-    "id": "maritimo",
-    "slug": "transporte/maritimo",
-    "parentId": "transporte",
-    "type": "subvertical",
-    "title": "Transporte marítimo",
-    "description": "Conceptos iniciales para comprender el transporte de mercancías por mar.",
-    "seoTitle": "Transporte marítimo | Logística",
-    "order": 3,
-    "status": "draft",
-    "sections": []
-  },
-  {
-    "id": "operaciones",
-    "slug": "almacenaje/operaciones",
-    "parentId": "almacenaje",
-    "type": "subvertical",
-    "title": "Operaciones de almacén",
-    "description": "Conoce las etapas que recorren los productos dentro de un almacén.",
-    "seoTitle": "Operaciones de almacén | Logística",
-    "order": 4,
-    "status": "draft",
-    "sections": []
-  },
-  {
-    "id": "contenedor",
-    "slug": "transporte/maritimo/que-es-un-contenedor",
-    "parentId": "maritimo",
-    "type": "informativa",
-    "title": "Qué es un contenedor",
-    "description": "Una primera aproximación a la unidad de carga que facilita el transporte de mercancías.",
-    "seoTitle": "Qué es un contenedor | Logística",
-    "order": 5,
     "status": "draft",
     "sections": [
       {
-        "heading": "Una unidad para agrupar mercancías",
+        "heading": "Logística en la práctica",
         "paragraphs": [
-          "Un contenedor es una unidad de carga reutilizable que permite agrupar mercancías y facilitar su manipulación durante el transporte.",
-          "Su uso puede conectar diferentes medios de transporte sin manipular cada bulto de forma individual. La elección del equipo depende de las características de la carga."
-        ]
-      },
-      {
-        "heading": "Qué desarrollar en esta guía",
-        "paragraphs": [
-          "La versión definitiva podrá explicar tipos de contenedor, usos y criterios de selección, con fuentes revisadas y ejemplos. Este texto es una muestra de la plantilla."
+          "Un pedido prometido a 48 horas obliga a coordinar disponibilidad, preparación y transporte."
         ]
       }
     ]
   },
   {
-    "id": "picking",
-    "slug": "almacenaje/operaciones/que-es-el-picking",
-    "parentId": "operaciones",
+    "id": "2",
+    "slug": "logistica/conceptos-basicos",
+    "parentId": "1",
+    "type": "subvertical",
+    "title": "Conceptos básicos",
+    "keyword": "conceptos básicos",
+    "seoTitle": "Conceptos básicos: conceptos, procesos y claves",
+    "description": "Los conceptos básicos describen cómo se mueve un producto desde su origen hasta su destino.",
+    "order": 2,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Conceptos básicos en la práctica",
+        "paragraphs": [
+          "Dibujar el flujo de un pedido ayuda a distinguir las tareas físicas de las decisiones de planificación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "logistica/conceptos-basicos/que-es-la-logistica",
+    "parentId": "2",
     "type": "informativa",
-    "title": "Qué es el picking",
-    "description": "Una explicación introductoria sobre la preparación de pedidos en el almacén.",
-    "seoTitle": "Qué es el picking | Logística",
+    "title": "Qué es la logística",
+    "keyword": "qué es la logística",
+    "seoTitle": "Qué es la logística: qué es, tipos y claves",
+    "description": "La logística planifica y ejecuta el flujo de mercancías, servicios e información entre origen y destino.",
+    "order": 3,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Qué es la logística en la práctica",
+        "paragraphs": [
+          "Al recibir un pedido, el almacén confirma existencias, prepara el envío y transfiere el seguimiento al transportista."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "logistica/conceptos-basicos/objetivos-y-funciones-de-la-logistica",
+    "parentId": "2",
+    "type": "informativa",
+    "title": "Objetivos y funciones de la logística",
+    "keyword": "objetivos y funciones de la logística",
+    "seoTitle": "Objetivos y funciones de la logística: qué es, tipos y claves",
+    "description": "La logística busca entregar la cantidad acordada en el lugar y plazo previstos, con un coste y un uso de recursos asumibles.",
+    "order": 4,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Objetivos y funciones de la logística en la práctica",
+        "paragraphs": [
+          "Agrupar expediciones reduce viajes, pero puede aumentar la espera de algunos pedidos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "logistica/conceptos-basicos/procesos-y-flujos-logisticos",
+    "parentId": "2",
+    "type": "informativa",
+    "title": "Procesos y flujos logísticos",
+    "keyword": "procesos y flujos logísticos",
+    "seoTitle": "Procesos y flujos logísticos: qué es, tipos y claves",
+    "description": "Los flujos físicos mueven unidades y los flujos de información registran pedidos, movimientos y entregas.",
+    "order": 5,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Procesos y flujos logísticos en la práctica",
+        "paragraphs": [
+          "Una caja puede estar en el muelle y seguir apareciendo en stock si su salida todavía no se registró."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "logistica/modelos-y-organizacion",
+    "parentId": "1",
+    "type": "subvertical",
+    "title": "Modelos y organización",
+    "keyword": "modelos y organización",
+    "seoTitle": "Modelos y organización: conceptos, procesos y claves",
+    "description": "Los modelos logísticos delimitan qué operaciones se coordinan juntas y cuáles se encargan a terceros.",
     "order": 6,
     "status": "draft",
     "sections": [
       {
-        "heading": "Preparar los productos de un pedido",
+        "heading": "Modelos y organización en la práctica",
         "paragraphs": [
-          "El picking consiste en seleccionar y recoger los productos necesarios para preparar un pedido. Forma parte de las operaciones habituales de un almacén.",
-          "La organización de las ubicaciones y la identificación de los productos influyen en cómo se realiza esta tarea."
+          "Una empresa puede gestionar su almacén y contratar el transporte, con reglas claras para el traspaso de expediciones."
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "logistica/modelos-y-organizacion/logistica-integral",
+    "parentId": "6",
+    "type": "informativa",
+    "title": "Logística integral",
+    "keyword": "logística integral",
+    "seoTitle": "Logística integral: qué es, tipos y claves",
+    "description": "La logística integral coordina aprovisionamiento, inventario, almacenaje y distribución como un sistema.",
+    "order": 7,
+    "status": "draft",
+    "sections": [
       {
-        "heading": "Qué desarrollar en esta guía",
+        "heading": "Logística integral en la práctica",
         "paragraphs": [
-          "La versión definitiva podrá explicar métodos de preparación, etapas y conceptos relacionados, con fuentes revisadas. Este texto es una muestra de la plantilla."
+          "Un aumento de frecuencia de entrega puede reducir el stock del destino y a la vez elevar el coste de transporte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "logistica/modelos-y-organizacion/logistica-interna-y-externa",
+    "parentId": "6",
+    "type": "informativa",
+    "title": "Logística interna y externa",
+    "keyword": "logística interna y externa",
+    "seoTitle": "Logística interna y externa: qué es, tipos y claves",
+    "description": "La logística interna cubre los movimientos dentro de una instalación y la externa conecta instalaciones y destinatarios.",
+    "order": 8,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística interna y externa en la práctica",
+        "paragraphs": [
+          "Llevar piezas a una línea de montaje es un flujo interno. Abastecer la planta desde un proveedor es un flujo externo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "slug": "logistica/modelos-y-organizacion/logistica-inbound-y-outbound",
+    "parentId": "6",
+    "type": "informativa",
+    "title": "Logística inbound y outbound",
+    "keyword": "logística inbound y outbound",
+    "seoTitle": "Logística inbound y outbound: qué es, tipos y claves",
+    "description": "Inbound abarca la entrada de suministros y outbound la expedición al siguiente eslabón o al cliente.",
+    "order": 9,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística inbound y outbound en la práctica",
+        "paragraphs": [
+          "Una cita de recepción inbound y un corte de salida outbound compiten por muelles si comparten infraestructura."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "logistica/modelos-y-organizacion/logistica-4-0",
+    "parentId": "6",
+    "type": "informativa",
+    "title": "Logística 4.0",
+    "keyword": "logística 4.0",
+    "seoTitle": "Logística 4.0: qué es, tipos y claves",
+    "description": "La logística 4.0 conecta equipos, sensores y sistemas para capturar eventos y ajustar operaciones.",
+    "order": 10,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística 4.0 en la práctica",
+        "paragraphs": [
+          "Un sensor puede alertar de una desviación de temperatura mientras un envío sigue en ruta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "cadena-de-suministro",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Cadena de suministro",
+    "keyword": "cadena de suministro",
+    "seoTitle": "Cadena de suministro: guía, conceptos y áreas clave",
+    "description": "La cadena de suministro reúne proveedores, operaciones y canales que hacen llegar un producto al usuario.",
+    "order": 11,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Cadena de suministro en la práctica",
+        "paragraphs": [
+          "Un retraso en una planta puede afectar a varios centros y obliga a reasignar inventario."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "cadena-de-suministro/fundamentos-de-supply-chain",
+    "parentId": "11",
+    "type": "subvertical",
+    "title": "Fundamentos de supply chain",
+    "keyword": "fundamentos de supply chain",
+    "seoTitle": "Fundamentos de supply chain: conceptos, procesos y claves",
+    "description": "Los fundamentos de supply chain explican el alcance de la red y las decisiones que dan forma a sus flujos.",
+    "order": 12,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Fundamentos de supply chain en la práctica",
+        "paragraphs": [
+          "Un mapa de proveedores, plantas y destinos permite ver dónde se concentra la dependencia."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "cadena-de-suministro/fundamentos-de-supply-chain/que-es-la-cadena-de-suministro",
+    "parentId": "12",
+    "type": "informativa",
+    "title": "Qué es la cadena de suministro",
+    "keyword": "qué es la cadena de suministro",
+    "seoTitle": "Qué es la cadena de suministro: qué es, tipos y claves",
+    "description": "Una cadena de suministro incluye los agentes que aprovisionan, transforman, almacenan y distribuyen un producto.",
+    "order": 13,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Qué es la cadena de suministro en la práctica",
+        "paragraphs": [
+          "En una cadena de calzado intervienen fabricantes de materiales, talleres, almacenes y comercios."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "cadena-de-suministro/fundamentos-de-supply-chain/supply-chain-vs-logistica",
+    "parentId": "12",
+    "type": "informativa",
+    "title": "Supply chain vs logística",
+    "keyword": "supply chain vs logística",
+    "seoTitle": "Supply chain vs logística: qué es, tipos y claves",
+    "description": "Supply chain abarca la coordinación de la red, desde compras y producción hasta distribución. La logística se centra en los flujos y su ejecución.",
+    "order": 14,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Supply chain vs logística en la práctica",
+        "paragraphs": [
+          "Elegir dónde fabricar es una decisión de supply chain. Programar las recogidas de la planta es una decisión logística."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "cadena-de-suministro/fundamentos-de-supply-chain/diseno-de-la-cadena-de-suministro",
+    "parentId": "12",
+    "type": "informativa",
+    "title": "Diseño de la cadena de suministro",
+    "keyword": "diseño de la cadena de suministro",
+    "seoTitle": "Diseño de la cadena de suministro: qué es, tipos y claves",
+    "description": "Diseñar una cadena implica situar instalaciones, asignar flujos y decidir niveles de capacidad e inventario.",
+    "order": 15,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Diseño de la cadena de suministro en la práctica",
+        "paragraphs": [
+          "Abrir otro centro puede acercar el stock al cliente y aumentar los costes fijos y el inventario total."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "cadena-de-suministro/planificacion-de-supply-chain",
+    "parentId": "11",
+    "type": "subvertical",
+    "title": "Planificación de supply chain",
+    "keyword": "planificación de supply chain",
+    "seoTitle": "Planificación de supply chain: conceptos, procesos y claves",
+    "description": "La planificación de supply chain alinea la demanda prevista con las restricciones de compra, fabricación e inventario.",
+    "order": 16,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Planificación de supply chain en la práctica",
+        "paragraphs": [
+          "Un pico comercial puede requerir adelantar compras o revisar la capacidad de fabricación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "cadena-de-suministro/planificacion-de-supply-chain/supply-chain-planning",
+    "parentId": "16",
+    "type": "informativa",
+    "title": "Supply chain planning",
+    "keyword": "supply chain planning",
+    "seoTitle": "Supply chain planning: qué es, tipos y claves",
+    "description": "Supply chain planning traduce objetivos comerciales en planes compatibles de demanda, materiales y capacidad.",
+    "order": 17,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Supply chain planning en la práctica",
+        "paragraphs": [
+          "Si cae la capacidad de una planta, el plan permite simular qué pedidos desplazar a otra."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "cadena-de-suministro/planificacion-de-supply-chain/demand-planning",
+    "parentId": "16",
+    "type": "informativa",
+    "title": "Demand planning",
+    "keyword": "demand planning",
+    "seoTitle": "Demand planning: qué es, tipos y claves",
+    "description": "Demand planning estima cantidades futuras con históricos, promociones, estacionalidad e información comercial.",
+    "order": 18,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Demand planning en la práctica",
+        "paragraphs": [
+          "Una rotura de stock oculta demanda si se interpretan las ventas registradas como toda la demanda real."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "cadena-de-suministro/planificacion-de-supply-chain/supply-planning",
+    "parentId": "16",
+    "type": "informativa",
+    "title": "Supply planning",
+    "keyword": "supply planning",
+    "seoTitle": "Supply planning: qué es, tipos y claves",
+    "description": "Supply planning determina cómo cubrir necesidades con inventario, producción y compras sujetas a restricciones.",
+    "order": 19,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Supply planning en la práctica",
+        "paragraphs": [
+          "Una pieza con plazo largo puede obligar a adelantar un pedido o ajustar el calendario de producción."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "cadena-de-suministro/planificacion-de-supply-chain/s-y-op",
+    "parentId": "16",
+    "type": "informativa",
+    "title": "S&OP",
+    "keyword": "s&op",
+    "seoTitle": "S&OP: cómo funciona, proceso y buenas prácticas",
+    "description": "S&OP reúne a ventas, operaciones y finanzas para acordar un plan de demanda y suministro.",
+    "order": 20,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "S&OP en la práctica",
+        "paragraphs": [
+          "Si una campaña supera la capacidad disponible, el equipo puede priorizar referencias o modificar su calendario."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "slug": "cadena-de-suministro/resiliencia-y-coordinacion",
+    "parentId": "11",
+    "type": "subvertical",
+    "title": "Resiliencia y coordinación",
+    "keyword": "resiliencia y coordinación",
+    "seoTitle": "Resiliencia y coordinación: conceptos, procesos y claves",
+    "description": "La resiliencia depende de detectar incidencias y coordinar la respuesta entre los distintos eslabones.",
+    "order": 21,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Resiliencia y coordinación en la práctica",
+        "paragraphs": [
+          "Un aviso temprano de retraso permite reasignar unidades o reservar un transporte alternativo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "slug": "cadena-de-suministro/resiliencia-y-coordinacion/visibilidad-de-la-cadena-de-suministro",
+    "parentId": "21",
+    "type": "informativa",
+    "title": "Visibilidad de la cadena de suministro",
+    "keyword": "visibilidad de la cadena de suministro",
+    "seoTitle": "Visibilidad de la cadena de suministro: qué es, tipos y claves",
+    "description": "La visibilidad de la cadena permite saber dónde están pedidos, materiales y envíos a partir de eventos compartidos.",
+    "order": 22,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Visibilidad de la cadena de suministro en la práctica",
+        "paragraphs": [
+          "Una fecha estimada sin marca temporal pierde valor cuando cambia la ruta del envío."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "slug": "cadena-de-suministro/resiliencia-y-coordinacion/resiliencia-de-la-cadena-de-suministro",
+    "parentId": "21",
+    "type": "informativa",
+    "title": "Resiliencia de la cadena de suministro",
+    "keyword": "resiliencia de la cadena de suministro",
+    "seoTitle": "Resiliencia de la cadena de suministro: qué es, tipos y claves",
+    "description": "Una cadena resiliente puede absorber una interrupción y recuperar su capacidad de servicio.",
+    "order": 23,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Resiliencia de la cadena de suministro en la práctica",
+        "paragraphs": [
+          "Homologar un segundo proveedor permite comparar el coste de mantener la alternativa con el impacto de una parada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "slug": "cadena-de-suministro/resiliencia-y-coordinacion/control-tower-logistica",
+    "parentId": "21",
+    "type": "informativa",
+    "title": "Control tower logística",
+    "keyword": "control tower logística",
+    "seoTitle": "Control tower logística: qué es, tipos y claves",
+    "description": "Una torre de control consolida eventos logísticos y ayuda a priorizar las excepciones que requieren una decisión.",
+    "order": 24,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Control tower logística en la práctica",
+        "paragraphs": [
+          "Un retraso merece atención prioritaria cuando pone en riesgo una entrega con cita cerrada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "slug": "aprovisionamiento-y-compras",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Aprovisionamiento y compras",
+    "keyword": "aprovisionamiento y compras",
+    "seoTitle": "Aprovisionamiento y compras: guía, conceptos y áreas clave",
+    "description": "Compras decide de quién y en qué condiciones adquirir materiales. Aprovisionamiento coordina cuándo y cuánto pedir para cubrir necesidades.",
+    "order": 25,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Aprovisionamiento y compras en la práctica",
+        "paragraphs": [
+          "Un precio bajo pierde valor si el plazo del proveedor obliga a sostener demasiado inventario."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "slug": "aprovisionamiento-y-compras/aprovisionamiento",
+    "parentId": "25",
+    "type": "subvertical",
+    "title": "Aprovisionamiento",
+    "keyword": "aprovisionamiento",
+    "seoTitle": "Aprovisionamiento: conceptos, procesos y claves",
+    "description": "Aprovisionar vincula necesidades de materiales, pedidos al proveedor y recepción física.",
+    "order": 26,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Aprovisionamiento en la práctica",
+        "paragraphs": [
+          "Una discrepancia entre la fecha prometida y la recogida programada puede dejar a la planta sin componentes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "slug": "aprovisionamiento-y-compras/aprovisionamiento/que-es-el-aprovisionamiento",
+    "parentId": "26",
+    "type": "informativa",
+    "title": "Qué es el aprovisionamiento",
+    "keyword": "qué es el aprovisionamiento",
+    "seoTitle": "Qué es el aprovisionamiento: cómo funciona, proceso y buenas prácticas",
+    "description": "El aprovisionamiento asegura la disponibilidad de materiales, mercancías o servicios cuando la operación los necesita.",
+    "order": 27,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Qué es el aprovisionamiento en la práctica",
+        "paragraphs": [
+          "Una planta comprueba existencias y consumo previsto antes de decidir la fecha del siguiente pedido."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "slug": "aprovisionamiento-y-compras/aprovisionamiento/proceso-de-aprovisionamiento",
+    "parentId": "26",
+    "type": "informativa",
+    "title": "Proceso de aprovisionamiento",
+    "keyword": "proceso de aprovisionamiento",
+    "seoTitle": "Proceso de aprovisionamiento: cómo funciona, proceso y buenas prácticas",
+    "description": "El proceso de aprovisionamiento va desde la identificación de una necesidad hasta la confirmación de recepción y las incidencias.",
+    "order": 28,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Proceso de aprovisionamiento en la práctica",
+        "paragraphs": [
+          "Si el proveedor confirma una cantidad parcial, compras puede renegociar el saldo y planificación puede ajustar prioridades."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "slug": "aprovisionamiento-y-compras/aprovisionamiento/logistica-de-entrada",
+    "parentId": "26",
+    "type": "informativa",
+    "title": "Logística de entrada",
+    "keyword": "logística de entrada",
+    "seoTitle": "Logística de entrada: qué es, tipos y claves",
+    "description": "La logística de entrada coordina la recogida, el transporte y la recepción de mercancías.",
+    "order": 29,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística de entrada en la práctica",
+        "paragraphs": [
+          "Pedir un aviso de expedición ayuda al almacén a preparar muelle y espacio antes de la llegada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "slug": "aprovisionamiento-y-compras/compras-y-proveedores",
+    "parentId": "25",
+    "type": "subvertical",
+    "title": "Compras y proveedores",
+    "keyword": "compras y proveedores",
+    "seoTitle": "Compras y proveedores: conceptos, procesos y claves",
+    "description": "Compras y proveedores cubre la selección, contratación y evaluación de quienes suministran bienes o servicios.",
+    "order": 30,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Compras y proveedores en la práctica",
+        "paragraphs": [
+          "La calidad de las entregas, el plazo y la flexibilidad pueden pesar tanto como el precio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "slug": "aprovisionamiento-y-compras/compras-y-proveedores/procurement-y-compras",
+    "parentId": "30",
+    "type": "informativa",
+    "title": "Procurement y compras",
+    "keyword": "procurement y compras",
+    "seoTitle": "Procurement y compras: qué es, tipos y claves",
+    "description": "Procurement abarca la estrategia de adquisición y la gestión de proveedores. La orden de compra materializa una parte de ese trabajo.",
+    "order": 31,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Procurement y compras en la práctica",
+        "paragraphs": [
+          "En un contrato marco, procurement acuerda condiciones y el equipo operativo cursa pedidos según el consumo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "slug": "aprovisionamiento-y-compras/compras-y-proveedores/strategic-sourcing",
+    "parentId": "30",
+    "type": "informativa",
+    "title": "Strategic sourcing",
+    "keyword": "strategic sourcing",
+    "seoTitle": "Strategic sourcing: qué es, tipos y claves",
+    "description": "Strategic sourcing analiza categorías de gasto y mercados para seleccionar una estrategia de suministro.",
+    "order": 32,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Strategic sourcing en la práctica",
+        "paragraphs": [
+          "Una categoría crítica puede requerir dos fuentes de suministro aunque consolidar volumen mejore el precio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "slug": "aprovisionamiento-y-compras/compras-y-proveedores/gestion-y-evaluacion-de-proveedores",
+    "parentId": "30",
+    "type": "informativa",
+    "title": "Gestión y evaluación de proveedores",
+    "keyword": "gestión y evaluación de proveedores",
+    "seoTitle": "Gestión y evaluación de proveedores: cómo funciona, proceso y buenas prácticas",
+    "description": "Evaluar proveedores permite contrastar su desempeño real con los compromisos de calidad, plazo y cantidad.",
+    "order": 33,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión y evaluación de proveedores en la práctica",
+        "paragraphs": [
+          "Un cuadro mensual puede distinguir entregas tardías de cantidades incompletas para asignar acciones correctoras."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "slug": "aprovisionamiento-y-compras/planificacion-de-materiales",
+    "parentId": "25",
+    "type": "subvertical",
+    "title": "Planificación de materiales",
+    "keyword": "planificación de materiales",
+    "seoTitle": "Planificación de materiales: conceptos, procesos y claves",
+    "description": "La planificación de materiales convierte necesidades de producción y reposición en fechas y cantidades de compra.",
+    "order": 34,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Planificación de materiales en la práctica",
+        "paragraphs": [
+          "La disponibilidad de un componente debe calcularse para la fecha de consumo, teniendo en cuenta pedidos en curso."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "slug": "aprovisionamiento-y-compras/planificacion-de-materiales/mrp",
+    "parentId": "34",
+    "type": "informativa",
+    "title": "MRP",
+    "keyword": "mrp",
+    "seoTitle": "MRP: cómo funciona, proceso y buenas prácticas",
+    "description": "MRP calcula necesidades netas de componentes a partir del plan maestro, la lista de materiales y el inventario disponible.",
+    "order": 35,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "MRP en la práctica",
+        "paragraphs": [
+          "Fabricar 100 unidades con dos tornillos por unidad requiere 200 tornillos brutos antes de descontar el stock."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "slug": "aprovisionamiento-y-compras/planificacion-de-materiales/planificacion-de-necesidades-de-materiales",
+    "parentId": "34",
+    "type": "informativa",
+    "title": "Planificación de necesidades de materiales",
+    "keyword": "planificación de necesidades de materiales",
+    "seoTitle": "Planificación de necesidades de materiales: cómo funciona, proceso y buenas prácticas",
+    "description": "Planificar necesidades de materiales implica calcular qué componentes hacen falta, en qué cantidad y para qué fecha.",
+    "order": 36,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Planificación de necesidades de materiales en la práctica",
+        "paragraphs": [
+          "Si un componente tarda tres semanas, la fecha de lanzamiento del pedido debe preceder a la fecha en que se consumirá."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "slug": "aprovisionamiento-y-compras/planificacion-de-materiales/vendor-managed-inventory",
+    "parentId": "34",
+    "type": "informativa",
+    "title": "Vendor Managed Inventory",
+    "keyword": "vendor managed inventory",
+    "seoTitle": "Vendor Managed Inventory: qué es, tipos y claves",
+    "description": "En Vendor Managed Inventory el proveedor gestiona la reposición usando datos de ventas o stock del cliente y reglas acordadas.",
+    "order": 37,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Vendor Managed Inventory en la práctica",
+        "paragraphs": [
+          "Un mínimo y un máximo pactados dan al proveedor un marco para reponer sin esperar cada orden individual."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "slug": "almacenes-e-intralogistica",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Almacenes e intralogística",
+    "keyword": "almacenes e intralogística",
+    "seoTitle": "Almacenes e intralogística: guía, conceptos y áreas clave",
+    "description": "La intralogística coordina los desplazamientos, el almacenamiento y la preparación dentro de las instalaciones.",
+    "order": 38,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Almacenes e intralogística en la práctica",
+        "paragraphs": [
+          "Acercar las referencias de alta rotación al área de expedición puede reducir recorridos de preparación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "slug": "almacenes-e-intralogistica/diseno-de-almacenes",
+    "parentId": "38",
+    "type": "subvertical",
+    "title": "Diseño de almacenes",
+    "keyword": "diseño de almacenes",
+    "seoTitle": "Diseño de almacenes: conceptos, procesos y claves",
+    "description": "El diseño de un almacén asigna espacio y capacidad en función de las mercancías, el volumen y los flujos.",
+    "order": 39,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Diseño de almacenes en la práctica",
+        "paragraphs": [
+          "Prever cruces entre personas, equipos y camiones evita que los picos de actividad saturen una misma zona."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "slug": "almacenes-e-intralogistica/diseno-de-almacenes/que-es-un-almacen-logistico",
+    "parentId": "39",
+    "type": "informativa",
+    "title": "Qué es un almacén logístico",
+    "keyword": "qué es un almacén logístico",
+    "seoTitle": "Qué es un almacén logístico: qué es, tipos y claves",
+    "description": "Un almacén logístico recibe, conserva y despacha mercancías con ubicaciones y procedimientos definidos.",
+    "order": 40,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Qué es un almacén logístico en la práctica",
+        "paragraphs": [
+          "Una plataforma de distribución puede tener más espacio de preparación que una instalación de reserva de stock."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "slug": "almacenes-e-intralogistica/diseno-de-almacenes/tipos-de-almacenes",
+    "parentId": "39",
+    "type": "informativa",
+    "title": "Tipos de almacenes",
+    "keyword": "tipos de almacenes",
+    "seoTitle": "Tipos de almacenes: qué es, tipos y claves",
+    "description": "Los almacenes pueden especializarse en materias primas, producto terminado, distribución, tránsito o conservación controlada.",
+    "order": 41,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Tipos de almacenes en la práctica",
+        "paragraphs": [
+          "Un centro de cross-docking dedica recursos a muelles y clasificación porque la carga permanece poco tiempo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "slug": "almacenes-e-intralogistica/diseno-de-almacenes/layout-y-zonas-de-almacen",
+    "parentId": "39",
+    "type": "informativa",
+    "title": "Layout y zonas de almacén",
+    "keyword": "layout y zonas de almacén",
+    "seoTitle": "Layout y zonas de almacén: qué es, tipos y claves",
+    "description": "El layout distribuye áreas de recepción, reserva, picking, consolidación y expedición.",
+    "order": 42,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Layout y zonas de almacén en la práctica",
+        "paragraphs": [
+          "Simular los recorridos de entrada y salida permite localizar cruces y pasillos que se saturan."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "slug": "almacenes-e-intralogistica/diseno-de-almacenes/muelles-de-carga",
+    "parentId": "39",
+    "type": "informativa",
+    "title": "Muelles de carga",
+    "keyword": "muelles de carga",
+    "seoTitle": "Muelles de carga: qué es, tipos y claves",
+    "description": "Los muelles conectan el almacén con vehículos de carga mediante accesos adaptados a la operación.",
+    "order": 43,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Muelles de carga en la práctica",
+        "paragraphs": [
+          "Una cita de descarga requiere confirmar el tipo de vehículo y reservar un hueco compatible."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "slug": "almacenes-e-intralogistica/recepcion-y-ubicacion",
+    "parentId": "38",
+    "type": "subvertical",
+    "title": "Recepción y ubicación",
+    "keyword": "recepción y ubicación",
+    "seoTitle": "Recepción y ubicación: conceptos, procesos y claves",
+    "description": "Recepción y ubicación enlazan la llegada de mercancías con su disponibilidad en el inventario operativo.",
+    "order": 44,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Recepción y ubicación en la práctica",
+        "paragraphs": [
+          "Una unidad retenida por inspección necesita un estado diferenciado para evitar que se asigne a un pedido."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "slug": "almacenes-e-intralogistica/recepcion-y-ubicacion/recepcion-de-mercancias",
+    "parentId": "44",
+    "type": "informativa",
+    "title": "Recepción de mercancías",
+    "keyword": "recepción de mercancías",
+    "seoTitle": "Recepción de mercancías: cómo funciona, proceso y buenas prácticas",
+    "description": "La recepción verifica cantidades, estado e identificación de las mercancías que llegan.",
+    "order": 45,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Recepción de mercancías en la práctica",
+        "paragraphs": [
+          "Si el albarán indica 20 palés y llegan 19, se registra la diferencia antes de cerrar la entrada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "slug": "almacenes-e-intralogistica/recepcion-y-ubicacion/putaway-y-ubicacion-dirigida",
+    "parentId": "44",
+    "type": "informativa",
+    "title": "Putaway y ubicación dirigida",
+    "keyword": "putaway y ubicación dirigida",
+    "seoTitle": "Putaway y ubicación dirigida: cómo funciona, proceso y buenas prácticas",
+    "description": "El putaway traslada la mercancía recibida a su ubicación. En la ubicación dirigida, el sistema propone destino según reglas de almacén.",
+    "order": 46,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Putaway y ubicación dirigida en la práctica",
+        "paragraphs": [
+          "Un palé pesado puede requerir una posición baja y capacidad suficiente en la estantería."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "slug": "almacenes-e-intralogistica/recepcion-y-ubicacion/dock-to-stock",
+    "parentId": "44",
+    "type": "informativa",
+    "title": "Dock-to-stock",
+    "keyword": "dock-to-stock",
+    "seoTitle": "Dock-to-stock: qué mide, cómo se calcula y ejemplos",
+    "description": "Dock-to-stock mide el tiempo desde la llegada al muelle hasta que la mercancía queda disponible en stock.",
+    "order": 47,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Dock-to-stock en la práctica",
+        "paragraphs": [
+          "Si una entrega llega a las 8 y queda disponible a las 11, el tiempo es de tres horas para ese evento."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "slug": "almacenes-e-intralogistica/preparacion-de-pedidos",
+    "parentId": "38",
+    "type": "subvertical",
+    "title": "Preparación de pedidos",
+    "keyword": "preparación de pedidos",
+    "seoTitle": "Preparación de pedidos: conceptos, procesos y claves",
+    "description": "La preparación reúne las unidades de un pedido y las deja identificadas y listas para expedir.",
+    "order": 48,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Preparación de pedidos en la práctica",
+        "paragraphs": [
+          "Agrupar pedidos por corte de salida ayuda a que las tareas de picking y packing respeten la hora de transporte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "slug": "almacenes-e-intralogistica/preparacion-de-pedidos/picking",
+    "parentId": "48",
+    "type": "informativa",
+    "title": "Picking",
+    "keyword": "picking",
+    "seoTitle": "Picking: cómo funciona, proceso y buenas prácticas",
+    "description": "Picking es la extracción de referencias y cantidades concretas para un pedido.",
+    "order": 49,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Picking en la práctica",
+        "paragraphs": [
+          "Un operario puede escanear la ubicación y el SKU para confirmar que recoge la referencia correcta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "slug": "almacenes-e-intralogistica/preparacion-de-pedidos/packing",
+    "parentId": "48",
+    "type": "informativa",
+    "title": "Packing",
+    "keyword": "packing",
+    "seoTitle": "Packing: cómo funciona, proceso y buenas prácticas",
+    "description": "Packing protege, identifica y acondiciona la mercancía recogida para su expedición.",
+    "order": 50,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Packing en la práctica",
+        "paragraphs": [
+          "Una caja bien dimensionada reduce el relleno y limita el movimiento de los productos durante el trayecto."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "slug": "almacenes-e-intralogistica/preparacion-de-pedidos/reposicion-de-picking",
+    "parentId": "48",
+    "type": "informativa",
+    "title": "Reposición de picking",
+    "keyword": "reposición de picking",
+    "seoTitle": "Reposición de picking: cómo funciona, proceso y buenas prácticas",
+    "description": "La reposición traslada stock de reserva a las ubicaciones desde las que se preparan pedidos.",
+    "order": 51,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Reposición de picking en la práctica",
+        "paragraphs": [
+          "Un umbral mínimo puede disparar la reposición antes de que la ubicación de picking se vacíe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "slug": "almacenes-e-intralogistica/preparacion-de-pedidos/consolidacion-de-pedidos",
+    "parentId": "48",
+    "type": "informativa",
+    "title": "Consolidación de pedidos",
+    "keyword": "consolidación de pedidos",
+    "seoTitle": "Consolidación de pedidos: cómo funciona, proceso y buenas prácticas",
+    "description": "Consolidar un pedido reúne partidas preparadas en distintas zonas o momentos antes de su salida.",
+    "order": 52,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Consolidación de pedidos en la práctica",
+        "paragraphs": [
+          "El área de expedición puede bloquear la salida hasta que lleguen tanto el bulto seco como el refrigerado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "slug": "almacenes-e-intralogistica/operaciones-y-movimientos",
+    "parentId": "38",
+    "type": "subvertical",
+    "title": "Operaciones y movimientos",
+    "keyword": "operaciones y movimientos",
+    "seoTitle": "Operaciones y movimientos: conceptos, procesos y claves",
+    "description": "Las operaciones internas coordinan destinos, movimientos y ventanas de paso de las mercancías.",
+    "order": 53,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Operaciones y movimientos en la práctica",
+        "paragraphs": [
+          "Una zona temporal de espera libera el muelle, pero necesita capacidad y reglas para evitar acumulaciones."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "slug": "almacenes-e-intralogistica/operaciones-y-movimientos/cross-docking",
+    "parentId": "53",
+    "type": "informativa",
+    "title": "Cross-docking",
+    "keyword": "cross-docking",
+    "seoTitle": "Cross-docking: cómo funciona, proceso y buenas prácticas",
+    "description": "Cross-docking transfiere mercancías de vehículos de entrada a salidas con almacenamiento mínimo.",
+    "order": 54,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Cross-docking en la práctica",
+        "paragraphs": [
+          "Las cajas recibidas por la mañana se clasifican por ruta para subir a los camiones de reparto de esa tarde."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "slug": "almacenes-e-intralogistica/operaciones-y-movimientos/slotting",
+    "parentId": "53",
+    "type": "informativa",
+    "title": "Slotting",
+    "keyword": "slotting",
+    "seoTitle": "Slotting: cómo funciona, proceso y buenas prácticas",
+    "description": "Slotting asigna a cada referencia ubicaciones según rotación, dimensiones, peso y afinidad con otros productos.",
+    "order": 55,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Slotting en la práctica",
+        "paragraphs": [
+          "Una referencia con alta frecuencia de picking puede situarse cerca de la salida y a una altura cómoda."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "slug": "almacenes-e-intralogistica/operaciones-y-movimientos/gestion-de-muelles-y-citas",
+    "parentId": "53",
+    "type": "informativa",
+    "title": "Gestión de muelles y citas",
+    "keyword": "gestión de muelles y citas",
+    "seoTitle": "Gestión de muelles y citas: cómo funciona, proceso y buenas prácticas",
+    "description": "Gestionar muelles con citas distribuye llegadas y salidas entre puertas, turnos y equipos disponibles.",
+    "order": 56,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión de muelles y citas en la práctica",
+        "paragraphs": [
+          "Al reservar una descarga larga, conviene contar también el tiempo de entrada, maniobra y liberación de la puerta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "slug": "almacenes-e-intralogistica/operaciones-y-movimientos/yard-management",
+    "parentId": "53",
+    "type": "informativa",
+    "title": "Yard management",
+    "keyword": "yard management",
+    "seoTitle": "Yard management: qué es, tipos y claves",
+    "description": "Yard management controla el movimiento de camiones y remolques en el recinto exterior del almacén.",
+    "order": 57,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Yard management en la práctica",
+        "paragraphs": [
+          "Registrar llegada, plaza y puerta asignada permite localizar un remolque cuando llegue el turno de descarga."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "slug": "almacenes-e-intralogistica/manipulacion-y-equipos",
+    "parentId": "38",
+    "type": "subvertical",
+    "title": "Manipulación y equipos",
+    "keyword": "manipulación y equipos",
+    "seoTitle": "Manipulación y equipos: conceptos, procesos y claves",
+    "description": "La manipulación agrupa operaciones y equipos para mover y almacenar unidades de carga.",
+    "order": 58,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Manipulación y equipos en la práctica",
+        "paragraphs": [
+          "Al elegir un equipo, importan el peso, altura de elevación, pasillos y frecuencia de movimiento."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "slug": "almacenes-e-intralogistica/manipulacion-y-equipos/paletizacion-y-estiba",
+    "parentId": "58",
+    "type": "informativa",
+    "title": "Paletización y estiba",
+    "keyword": "paletización y estiba",
+    "seoTitle": "Paletización y estiba: qué es, tipos y claves",
+    "description": "La paletización agrupa bultos sobre un palé. La estiba los dispone y asegura para que mantengan estabilidad.",
+    "order": 59,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Paletización y estiba en la práctica",
+        "paragraphs": [
+          "Una carga con bultos pesados abajo y sin sobresalir del palé facilita su manipulación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "slug": "almacenes-e-intralogistica/manipulacion-y-equipos/equipos-de-manutencion",
+    "parentId": "58",
+    "type": "informativa",
+    "title": "Equipos de manutención",
+    "keyword": "equipos de manutención",
+    "seoTitle": "Equipos de manutención: qué es, tipos y claves",
+    "description": "Los equipos de manutención trasladan o elevan cargas, desde transpaletas hasta carretillas y transportadores.",
+    "order": 60,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Equipos de manutención en la práctica",
+        "paragraphs": [
+          "La anchura del pasillo y la altura de las estanterías condicionan la elección de carretilla."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "slug": "almacenes-e-intralogistica/manipulacion-y-equipos/sistemas-automaticos-de-almacenamiento",
+    "parentId": "58",
+    "type": "informativa",
+    "title": "Sistemas automáticos de almacenamiento",
+    "keyword": "sistemas automáticos de almacenamiento",
+    "seoTitle": "Sistemas automáticos de almacenamiento: qué es, tipos y claves",
+    "description": "Los sistemas automáticos de almacenamiento depositan y extraen unidades con equipos que ejecutan movimientos por control informático.",
+    "order": 61,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Sistemas automáticos de almacenamiento en la práctica",
+        "paragraphs": [
+          "Una instalación de cajas ligeras puede usar sistemas distintos de los que mueven palés completos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "slug": "inventario-y-stock",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Inventario y stock",
+    "keyword": "inventario y stock",
+    "seoTitle": "Inventario y stock: guía, conceptos y áreas clave",
+    "description": "Gestionar inventario consiste en saber qué hay, dónde está y cuánto conviene mantener.",
+    "order": 62,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Inventario y stock en la práctica",
+        "paragraphs": [
+          "Mantener mayor stock de seguridad reduce ciertos faltantes, a cambio de más capital inmovilizado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "slug": "inventario-y-stock/gestion-de-inventario",
+    "parentId": "62",
+    "type": "subvertical",
+    "title": "Gestión de inventario",
+    "keyword": "gestión de inventario",
+    "seoTitle": "Gestión de inventario: conceptos, procesos y claves",
+    "description": "La gestión de inventario conecta registros, movimientos y decisiones de reposición.",
+    "order": 63,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión de inventario en la práctica",
+        "paragraphs": [
+          "Si un traslado físico no actualiza ubicaciones, el total puede cuadrar y aun así fallar el picking."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "slug": "inventario-y-stock/gestion-de-inventario/que-es-el-inventario",
+    "parentId": "63",
+    "type": "informativa",
+    "title": "Qué es el inventario",
+    "keyword": "qué es el inventario",
+    "seoTitle": "Qué es el inventario: qué es, tipos y claves",
+    "description": "El inventario es el registro de bienes disponibles o en determinados estados dentro de una operación.",
+    "order": 64,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Qué es el inventario en la práctica",
+        "paragraphs": [
+          "Un inventario puede distinguir unidades disponibles, reservadas, en tránsito y bloqueadas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "slug": "inventario-y-stock/gestion-de-inventario/gestion-de-inventarios",
+    "parentId": "63",
+    "type": "informativa",
+    "title": "Gestión de inventarios",
+    "keyword": "gestión de inventarios",
+    "seoTitle": "Gestión de inventarios: cómo funciona, proceso y buenas prácticas",
+    "description": "Gestionar inventarios implica decidir niveles, reponer y conciliar las cantidades registradas con las físicas.",
+    "order": 65,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión de inventarios en la práctica",
+        "paragraphs": [
+          "Revisar existencias y pedidos pendientes de recepción evita comprar dos veces para la misma necesidad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "slug": "inventario-y-stock/gestion-de-inventario/control-de-stock",
+    "parentId": "63",
+    "type": "informativa",
+    "title": "Control de stock",
+    "keyword": "control de stock",
+    "seoTitle": "Control de stock: qué es, tipos y claves",
+    "description": "El control de stock registra y verifica las existencias y sus movimientos.",
+    "order": 66,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Control de stock en la práctica",
+        "paragraphs": [
+          "Cuando se ajusta una diferencia de inventario conviene registrar si se debió a merma, recuento o error de operación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "slug": "inventario-y-stock/politicas-de-inventario",
+    "parentId": "62",
+    "type": "subvertical",
+    "title": "Políticas de inventario",
+    "keyword": "políticas de inventario",
+    "seoTitle": "Políticas de inventario: conceptos, procesos y claves",
+    "description": "Una política de inventario fija cuándo reponer, cuánto pedir y qué disponibilidad se busca.",
+    "order": 67,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Políticas de inventario en la práctica",
+        "paragraphs": [
+          "Dos productos con igual demanda media pueden requerir políticas distintas si sus plazos o variabilidad difieren."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "slug": "inventario-y-stock/politicas-de-inventario/stock-de-seguridad",
+    "parentId": "67",
+    "type": "informativa",
+    "title": "Stock de seguridad",
+    "keyword": "stock de seguridad",
+    "seoTitle": "Stock de seguridad: qué es, tipos y claves",
+    "description": "El stock de seguridad es el colchón destinado a absorber variaciones de demanda o suministro.",
+    "order": 68,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Stock de seguridad en la práctica",
+        "paragraphs": [
+          "Una referencia con entregas irregulares puede necesitar más colchón que otra con igual consumo y plazo estable."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "slug": "inventario-y-stock/politicas-de-inventario/punto-de-pedido-y-eoq",
+    "parentId": "67",
+    "type": "informativa",
+    "title": "Punto de pedido y EOQ",
+    "keyword": "punto de pedido y eoq",
+    "seoTitle": "Punto de pedido y EOQ: qué es, tipos y claves",
+    "description": "El punto de pedido marca cuándo lanzar una reposición. El EOQ estima el tamaño de lote que equilibra costes de pedido y mantenimiento bajo supuestos concretos.",
+    "order": 69,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Punto de pedido y EOQ en la práctica",
+        "paragraphs": [
+          "Con demanda media de 10 unidades diarias, plazo de cinco días y colchón de 20, un punto de pedido sencillo sería 70 unidades."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "slug": "inventario-y-stock/politicas-de-inventario/clasificacion-abc-y-abc-xyz",
+    "parentId": "67",
+    "type": "informativa",
+    "title": "Clasificación ABC y ABC-XYZ",
+    "keyword": "clasificación abc y abc-xyz",
+    "seoTitle": "Clasificación ABC y ABC-XYZ: qué es, tipos y claves",
+    "description": "ABC ordena referencias por importancia, a menudo por valor de consumo. XYZ las agrupa por variabilidad de la demanda.",
+    "order": 70,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Clasificación ABC y ABC-XYZ en la práctica",
+        "paragraphs": [
+          "Una referencia AX merece atención por su alto peso económico y puede admitir una previsión estable."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "slug": "inventario-y-stock/politicas-de-inventario/asignacion-y-reserva-de-stock",
+    "parentId": "67",
+    "type": "informativa",
+    "title": "Asignación y reserva de stock",
+    "keyword": "asignación y reserva de stock",
+    "seoTitle": "Asignación y reserva de stock: qué es, tipos y claves",
+    "description": "Asignar stock determina qué pedidos se atienden con unidades disponibles. Reservarlo protege unidades para una necesidad identificada.",
+    "order": 71,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Asignación y reserva de stock en la práctica",
+        "paragraphs": [
+          "Si entran dos pedidos para la última unidad, una regla de prioridad decide cuál recibe la reserva."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "slug": "inventario-y-stock/rotacion-y-exactitud",
+    "parentId": "62",
+    "type": "subvertical",
+    "title": "Rotación y exactitud",
+    "keyword": "rotación y exactitud",
+    "seoTitle": "Rotación y exactitud: conceptos, procesos y claves",
+    "description": "La rotación mide cómo se renuevan las existencias y la exactitud refleja si los registros coinciden con la realidad.",
+    "order": 72,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Rotación y exactitud en la práctica",
+        "paragraphs": [
+          "Un producto puede rotar rápido y presentar diferencias recurrentes si las salidas se registran tarde."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "slug": "inventario-y-stock/rotacion-y-exactitud/rotacion-de-inventario",
+    "parentId": "72",
+    "type": "informativa",
+    "title": "Rotación de inventario",
+    "keyword": "rotación de inventario",
+    "seoTitle": "Rotación de inventario: qué mide, cómo se calcula y ejemplos",
+    "description": "La rotación compara las salidas del periodo con el inventario medio medido en la misma unidad.",
+    "order": 73,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Rotación de inventario en la práctica",
+        "paragraphs": [
+          "Con 1.200 unidades consumidas y un inventario medio de 100 unidades, la rotación del periodo es de 12 veces."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "slug": "inventario-y-stock/rotacion-y-exactitud/ruptura-de-stock-y-backorders",
+    "parentId": "72",
+    "type": "informativa",
+    "title": "Ruptura de stock y backorders",
+    "keyword": "ruptura de stock y backorders",
+    "seoTitle": "Ruptura de stock y backorders: qué es, tipos y claves",
+    "description": "Una ruptura de stock impide atender demanda inmediata. Un backorder mantiene el pedido pendiente de reposición.",
+    "order": 74,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Ruptura de stock y backorders en la práctica",
+        "paragraphs": [
+          "Aceptar pedidos pendientes requiere comunicar fechas y decidir qué prioridades aplicar cuando llegue stock."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "slug": "inventario-y-stock/rotacion-y-exactitud/recuento-ciclico-e-inventario-fisico",
+    "parentId": "72",
+    "type": "informativa",
+    "title": "Recuento cíclico e inventario físico",
+    "keyword": "recuento cíclico e inventario físico",
+    "seoTitle": "Recuento cíclico e inventario físico: qué es, tipos y claves",
+    "description": "El recuento cíclico verifica grupos de referencias a lo largo del año. El inventario físico general comprueba el conjunto en una fecha de corte.",
+    "order": 75,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Recuento cíclico e inventario físico en la práctica",
+        "paragraphs": [
+          "Las ubicaciones con diferencias repetidas pueden contarse con mayor frecuencia para encontrar la causa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "slug": "inventario-y-stock/rotacion-y-exactitud/fifo-y-fefo",
+    "parentId": "72",
+    "type": "informativa",
+    "title": "FIFO y FEFO",
+    "keyword": "fifo y fefo",
+    "seoTitle": "FIFO y FEFO: qué es, tipos y claves",
+    "description": "FIFO prioriza la salida de las unidades que entraron primero. FEFO prioriza las que caducan antes.",
+    "order": 76,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "FIFO y FEFO en la práctica",
+        "paragraphs": [
+          "Un lote recibido ayer puede salir antes que uno antiguo si su fecha de caducidad está más próxima."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "slug": "transporte-y-distribucion",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Transporte y distribución",
+    "keyword": "transporte y distribución",
+    "seoTitle": "Transporte y distribución: guía, conceptos y áreas clave",
+    "description": "Transporte y distribución coordinan los desplazamientos, la red de entrega y la llegada al destinatario.",
+    "order": 77,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte y distribución en la práctica",
+        "paragraphs": [
+          "La elección de modo y ruta depende del volumen, plazo, frecuencia y restricciones de la carga."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "slug": "transporte-y-distribucion/fundamentos-del-transporte",
+    "parentId": "77",
+    "type": "subvertical",
+    "title": "Fundamentos del transporte",
+    "keyword": "fundamentos del transporte",
+    "seoTitle": "Fundamentos del transporte: conceptos, procesos y claves",
+    "description": "El transporte combina modos, unidades de carga y formatos de contratación para llevar mercancías entre puntos.",
+    "order": 78,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Fundamentos del transporte en la práctica",
+        "paragraphs": [
+          "Una operación regular puede consolidar cargas para reducir coste por unidad si admite un plazo mayor."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "slug": "transporte-y-distribucion/fundamentos-del-transporte/transporte-de-mercancias",
+    "parentId": "78",
+    "type": "informativa",
+    "title": "Transporte de mercancías",
+    "keyword": "transporte de mercancías",
+    "seoTitle": "Transporte de mercancías: qué es, cómo funciona y documentación",
+    "description": "El transporte de mercancías comprende la recogida, traslado y entrega de bienes mediante uno o varios modos.",
+    "order": 79,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte de mercancías en la práctica",
+        "paragraphs": [
+          "Para contratar un envío se suelen declarar origen, destino, peso, dimensiones y restricciones de manipulación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "slug": "transporte-y-distribucion/fundamentos-del-transporte/transporte-multimodal-e-intermodal",
+    "parentId": "78",
+    "type": "informativa",
+    "title": "Transporte multimodal e intermodal",
+    "keyword": "transporte multimodal e intermodal",
+    "seoTitle": "Transporte multimodal e intermodal: qué es, cómo funciona y documentación",
+    "description": "Multimodal combina varios modos. Intermodal describe el uso de una misma unidad de carga entre modos sin manipular su contenido durante el cambio.",
+    "order": 80,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte multimodal e intermodal en la práctica",
+        "paragraphs": [
+          "Un contenedor que viaja por carretera y tren puede mantenerse sellado en la terminal de transferencia."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "slug": "transporte-y-distribucion/fundamentos-del-transporte/carga-completa-y-carga-fraccionada",
+    "parentId": "78",
+    "type": "informativa",
+    "title": "Carga completa y carga fraccionada",
+    "keyword": "carga completa y carga fraccionada",
+    "seoTitle": "Carga completa y carga fraccionada: qué es, tipos y claves",
+    "description": "La carga completa dedica capacidad a una expedición y la fraccionada comparte espacio con otras partidas.",
+    "order": 81,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Carga completa y carga fraccionada en la práctica",
+        "paragraphs": [
+          "Enviar pocos palés en un vehículo compartido puede abaratar el viaje y añadir escalas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "slug": "transporte-y-distribucion/transporte-terrestre",
+    "parentId": "77",
+    "type": "subvertical",
+    "title": "Transporte terrestre",
+    "keyword": "transporte terrestre",
+    "seoTitle": "Transporte terrestre: conceptos, procesos y claves",
+    "description": "El transporte terrestre conecta instalaciones y clientes mediante redes por superficie.",
+    "order": 82,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte terrestre en la práctica",
+        "paragraphs": [
+          "La flexibilidad de una ruta por carretera permite enlazar centros de distribución con entregas de poca capacidad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "slug": "transporte-y-distribucion/transporte-terrestre/transporte-por-carretera",
+    "parentId": "82",
+    "type": "informativa",
+    "title": "Transporte por carretera",
+    "keyword": "transporte por carretera",
+    "seoTitle": "Transporte por carretera: qué es, cómo funciona y documentación",
+    "description": "El transporte por carretera mueve mercancías en vehículos adaptados a la distancia, al tipo de carga y al acceso de los puntos de entrega.",
+    "order": 83,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte por carretera en la práctica",
+        "paragraphs": [
+          "Una ruta con descarga urbana puede exigir un vehículo más pequeño y una ventana horaria distinta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "slug": "transporte-y-distribucion/transporte-terrestre/ftl-ltl-y-grupaje",
+    "parentId": "82",
+    "type": "informativa",
+    "title": "FTL, LTL y grupaje",
+    "keyword": "ftl, ltl y grupaje",
+    "seoTitle": "FTL, LTL y grupaje: qué es, tipos y claves",
+    "description": "FTL reserva un camión completo, LTL comparte capacidad, y el grupaje consolida partidas que siguen una ruta compatible.",
+    "order": 84,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "FTL, LTL y grupaje en la práctica",
+        "paragraphs": [
+          "Un palé puede pasar por una terminal de consolidación antes de continuar hacia su zona de entrega."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "slug": "transporte-y-distribucion/transporte-terrestre/ultima-milla",
+    "parentId": "82",
+    "type": "informativa",
+    "title": "Última milla",
+    "keyword": "última milla",
+    "seoTitle": "Última milla: qué es, tipos y claves",
+    "description": "La última milla abarca el tramo final hasta el destinatario o punto de recogida.",
+    "order": 85,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Última milla en la práctica",
+        "paragraphs": [
+          "Agrupar entregas cercanas y confirmar disponibilidad del destinatario reduce paradas fallidas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "slug": "transporte-y-distribucion/transporte-terrestre/planificacion-y-optimizacion-de-rutas",
+    "parentId": "82",
+    "type": "informativa",
+    "title": "Planificación y optimización de rutas",
+    "keyword": "planificación y optimización de rutas",
+    "seoTitle": "Planificación y optimización de rutas: cómo funciona, proceso y buenas prácticas",
+    "description": "Optimizar rutas ordena paradas y asigna vehículos bajo restricciones de capacidad y horario.",
+    "order": 86,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Planificación y optimización de rutas en la práctica",
+        "paragraphs": [
+          "La secuencia más corta en kilómetros puede ser inviable si deja una entrega concertada fuera de su ventana."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "slug": "transporte-y-distribucion/transporte-maritimo",
+    "parentId": "77",
+    "type": "subvertical",
+    "title": "Transporte marítimo",
+    "keyword": "transporte marítimo",
+    "seoTitle": "Transporte marítimo: conceptos, procesos y claves",
+    "description": "El transporte marítimo conecta puertos y se organiza por tipo de carga, itinerario y documentación.",
+    "order": 87,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte marítimo en la práctica",
+        "paragraphs": [
+          "Una expedición internacional combina decisiones sobre contenedor, consolidación y conexiones terrestres."
+        ]
+      }
+    ],
+    "heading": "Transporte marítimo: temas y conceptos"
+  },
+  {
+    "id": "88",
+    "slug": "transporte-y-distribucion/transporte-maritimo/transporte-maritimo",
+    "parentId": "87",
+    "type": "informativa",
+    "title": "Transporte marítimo",
+    "keyword": "transporte marítimo",
+    "seoTitle": "Transporte marítimo: qué es, cómo funciona y documentación",
+    "description": "El transporte marítimo desplaza carga en buques, con servicios para contenedores, graneles y vehículos, entre otros.",
+    "order": 88,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte marítimo en la práctica",
+        "paragraphs": [
+          "Al comparar salidas conviene sumar tiempos de corte portuario, tránsito, posibles transbordos y retirada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "slug": "transporte-y-distribucion/transporte-maritimo/fcl-y-lcl",
+    "parentId": "87",
+    "type": "informativa",
+    "title": "FCL y LCL",
+    "keyword": "fcl y lcl",
+    "seoTitle": "FCL y LCL: qué es, cómo funciona y documentación",
+    "description": "FCL reserva un contenedor para una expedición. LCL comparte espacio con otras partidas consolidadas.",
+    "order": 89,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "FCL y LCL en la práctica",
+        "paragraphs": [
+          "Un envío con pocos metros cúbicos puede viajar en LCL y requerir más manipulación en origen y destino."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "slug": "transporte-y-distribucion/transporte-maritimo/contenedores-maritimos",
+    "parentId": "87",
+    "type": "informativa",
+    "title": "Contenedores marítimos",
+    "keyword": "contenedores marítimos",
+    "seoTitle": "Contenedores marítimos: qué es, tipos y claves",
+    "description": "Los contenedores marítimos son unidades estandarizadas, con variantes según dimensiones, temperatura y método de carga.",
+    "order": 90,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Contenedores marítimos en la práctica",
+        "paragraphs": [
+          "Una mercancía refrigerada requiere un equipo capaz de mantener su rango durante el viaje."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "slug": "transporte-y-distribucion/transporte-maritimo/bill-of-lading-y-documentacion-maritima",
+    "parentId": "87",
+    "type": "informativa",
+    "title": "Bill of Lading y documentación marítima",
+    "keyword": "bill of lading y documentación marítima",
+    "seoTitle": "Bill of Lading y documentación marítima: qué es, cómo funciona y documentación",
+    "description": "El Bill of Lading documenta la recepción o carga de mercancía y sirve como evidencia del contrato de transporte marítimo.",
+    "order": 91,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Bill of Lading y documentación marítima en la práctica",
+        "paragraphs": [
+          "Comprueba que los datos de cargador, destinatario, número de bultos y ruta coinciden con las instrucciones de embarque."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "slug": "transporte-y-distribucion/transporte-aereo-y-ferroviario",
+    "parentId": "77",
+    "type": "subvertical",
+    "title": "Transporte aéreo y ferroviario",
+    "keyword": "transporte aéreo y ferroviario",
+    "seoTitle": "Transporte aéreo y ferroviario: conceptos, procesos y claves",
+    "description": "El modo aéreo suele priorizar plazo y el ferroviario aporta capacidad en corredores con terminales adecuadas.",
+    "order": 92,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte aéreo y ferroviario en la práctica",
+        "paragraphs": [
+          "Compara el tiempo de puerta a puerta incluyendo recogida, espera en terminal y distribución final."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "slug": "transporte-y-distribucion/transporte-aereo-y-ferroviario/transporte-aereo-de-mercancias",
+    "parentId": "92",
+    "type": "informativa",
+    "title": "Transporte aéreo de mercancías",
+    "keyword": "transporte aéreo de mercancías",
+    "seoTitle": "Transporte aéreo de mercancías: qué es, cómo funciona y documentación",
+    "description": "La carga aérea lleva mercancías en aviones cargueros o bodegas de vuelos de pasajeros.",
+    "order": 93,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte aéreo de mercancías en la práctica",
+        "paragraphs": [
+          "El precio puede basarse en peso facturable, que tiene en cuenta el peso real y el volumétrico según el servicio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "slug": "transporte-y-distribucion/transporte-aereo-y-ferroviario/awb-y-documentacion-aerea",
+    "parentId": "92",
+    "type": "informativa",
+    "title": "AWB y documentación aérea",
+    "keyword": "awb y documentación aérea",
+    "seoTitle": "AWB y documentación aérea: qué es, cómo funciona y documentación",
+    "description": "El Air Waybill identifica una expedición aérea y refleja datos e instrucciones del transporte.",
+    "order": 94,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "AWB y documentación aérea en la práctica",
+        "paragraphs": [
+          "Antes de emitirlo, conviene cotejar aeropuerto de destino, número de piezas y pesos de la expedición."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "slug": "transporte-y-distribucion/transporte-aereo-y-ferroviario/transporte-ferroviario-de-mercancias",
+    "parentId": "92",
+    "type": "informativa",
+    "title": "Transporte ferroviario de mercancías",
+    "keyword": "transporte ferroviario de mercancías",
+    "seoTitle": "Transporte ferroviario de mercancías: qué es, cómo funciona y documentación",
+    "description": "El ferrocarril mueve contenedores, semirremolques o carga en vagones especializados según el corredor.",
+    "order": 95,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte ferroviario de mercancías en la práctica",
+        "paragraphs": [
+          "Una solución ferroviaria puede incorporar carretera para recoger la mercancía y completar la entrega."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "slug": "transporte-y-distribucion/distribucion",
+    "parentId": "77",
+    "type": "subvertical",
+    "title": "Distribución",
+    "keyword": "distribución",
+    "seoTitle": "Distribución: conceptos, procesos y claves",
+    "description": "La distribución coordina cómo sale la mercancía de los centros y llega a tiendas, empresas o consumidores.",
+    "order": 96,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Distribución en la práctica",
+        "paragraphs": [
+          "Las entregas de reposición a tienda suelen planificarse de forma distinta a los envíos unitarios a domicilio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "slug": "transporte-y-distribucion/distribucion/distribucion-logistica",
+    "parentId": "96",
+    "type": "informativa",
+    "title": "Distribución logística",
+    "keyword": "distribución logística",
+    "seoTitle": "Distribución logística: qué es, tipos y claves",
+    "description": "La distribución logística combina existencias, preparación y transporte para poner el producto al alcance del destinatario.",
+    "order": 97,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Distribución logística en la práctica",
+        "paragraphs": [
+          "Un centro puede reponer tiendas con rutas fijas y usar servicios de paquetería para pedidos a domicilio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "slug": "transporte-y-distribucion/distribucion/redes-y-centros-de-distribucion",
+    "parentId": "96",
+    "type": "informativa",
+    "title": "Redes y centros de distribución",
+    "keyword": "redes y centros de distribución",
+    "seoTitle": "Redes y centros de distribución: qué es, tipos y claves",
+    "description": "La red de distribución decide dónde situar centros y qué destinos atiende cada uno.",
+    "order": 98,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Redes y centros de distribución en la práctica",
+        "paragraphs": [
+          "Centralizar stock puede reducir duplicidad de inventario, aunque alargue algunas rutas de entrega."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "slug": "transporte-y-distribucion/distribucion/consolidacion-y-desconsolidacion-de-carga",
+    "parentId": "96",
+    "type": "informativa",
+    "title": "Consolidación y desconsolidación de carga",
+    "keyword": "consolidación y desconsolidación de carga",
+    "seoTitle": "Consolidación y desconsolidación de carga: cómo funciona, proceso y buenas prácticas",
+    "description": "La consolidación agrupa partidas para compartir capacidad. La desconsolidación las separa para su distribución posterior.",
+    "order": 99,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Consolidación y desconsolidación de carga en la práctica",
+        "paragraphs": [
+          "Un camión lleva varias partidas a una terminal regional, que las clasifica por ruta de reparto."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "slug": "transporte-y-distribucion/distribucion/planificacion-de-entregas",
+    "parentId": "96",
+    "type": "informativa",
+    "title": "Planificación de entregas",
+    "keyword": "planificación de entregas",
+    "seoTitle": "Planificación de entregas: cómo funciona, proceso y buenas prácticas",
+    "description": "Planificar entregas convierte pedidos en visitas con fecha, ventana, recursos y restricciones confirmadas.",
+    "order": 100,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Planificación de entregas en la práctica",
+        "paragraphs": [
+          "Una entrega que exige grúa necesita asignar un vehículo compatible incluso si hay otras rutas más cortas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "slug": "comercio-internacional-y-aduanas",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Comercio internacional y aduanas",
+    "keyword": "comercio internacional y aduanas",
+    "seoTitle": "Comercio internacional y aduanas: guía, conceptos y áreas clave",
+    "description": "El comercio internacional combina contratos, transporte y controles sobre mercancías que cruzan fronteras.",
+    "order": 101,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Comercio internacional y aduanas en la práctica",
+        "paragraphs": [
+          "Una partida puede estar lista para embarcar y seguir pendiente de información para la declaración aduanera."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "slug": "comercio-internacional-y-aduanas/comercio-internacional",
+    "parentId": "101",
+    "type": "subvertical",
+    "title": "Comercio internacional",
+    "keyword": "comercio internacional",
+    "seoTitle": "Comercio internacional: conceptos, procesos y claves",
+    "description": "El comercio internacional enlaza el intercambio entre mercados con la ejecución documental y logística.",
+    "order": 102,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Comercio internacional en la práctica",
+        "paragraphs": [
+          "Comparte con antelación descripciones, cantidades y términos de entrega entre las partes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "slug": "comercio-internacional-y-aduanas/comercio-internacional/logistica-internacional",
+    "parentId": "102",
+    "type": "informativa",
+    "title": "Logística internacional",
+    "keyword": "logística internacional",
+    "seoTitle": "Logística internacional: qué es, tipos y claves",
+    "description": "La logística internacional coordina movimientos entre países y los traspasos entre operadores, terminales y autoridades.",
+    "order": 103,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística internacional en la práctica",
+        "paragraphs": [
+          "Al planificar una ruta conviene incluir los plazos documentales junto al tránsito físico."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "slug": "comercio-internacional-y-aduanas/comercio-internacional/importacion-y-exportacion",
+    "parentId": "102",
+    "type": "informativa",
+    "title": "Importación y exportación",
+    "keyword": "importación y exportación",
+    "seoTitle": "Importación y exportación: qué es, tipos y claves",
+    "description": "Importar introduce mercancías en un territorio aduanero y exportar las envía fuera de él.",
+    "order": 104,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Importación y exportación en la práctica",
+        "paragraphs": [
+          "Antes de reservar el transporte, identifica los trámites y responsables en ambos extremos del viaje."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "slug": "comercio-internacional-y-aduanas/comercio-internacional/documentos-de-comercio-internacional",
+    "parentId": "102",
+    "type": "informativa",
+    "title": "Documentos de comercio internacional",
+    "keyword": "documentos de comercio internacional",
+    "seoTitle": "Documentos de comercio internacional: qué es, tipos y claves",
+    "description": "La documentación comercial, de transporte y aduanera describe la mercancía y respalda los distintos trámites.",
+    "order": 105,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Documentos de comercio internacional en la práctica",
+        "paragraphs": [
+          "La factura, el packing list y el documento de transporte deben describir la misma expedición de forma coherente."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "slug": "comercio-internacional-y-aduanas/incoterms-y-contratacion",
+    "parentId": "101",
+    "type": "subvertical",
+    "title": "Incoterms y contratación",
+    "keyword": "incoterms y contratación",
+    "seoTitle": "Incoterms y contratación: conceptos, procesos y claves",
+    "description": "La contratación del transporte y el término de entrega determinan quién organiza cada tramo y asume obligaciones y riesgos.",
+    "order": 106,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Incoterms y contratación en la práctica",
+        "paragraphs": [
+          "Identificar un punto concreto de entrega evita dudas entre un recinto portuario y una terminal interior."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "slug": "comercio-internacional-y-aduanas/incoterms-y-contratacion/incoterms",
+    "parentId": "106",
+    "type": "informativa",
+    "title": "Incoterms",
+    "keyword": "incoterms",
+    "seoTitle": "Incoterms: qué es, cómo funciona y documentación",
+    "description": "Los Incoterms son reglas contractuales que distribuyen obligaciones, costes y riesgo de entrega entre vendedor y comprador.",
+    "order": 107,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Incoterms en la práctica",
+        "paragraphs": [
+          "Anota la regla, el lugar nombrado y la edición acordada al redactar las condiciones de venta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "slug": "comercio-internacional-y-aduanas/incoterms-y-contratacion/incoterms-de-salida-y-transporte-principal",
+    "parentId": "106",
+    "type": "informativa",
+    "title": "Incoterms de salida y transporte principal",
+    "keyword": "incoterms de salida y transporte principal",
+    "seoTitle": "Incoterms de salida y transporte principal: qué es, cómo funciona y documentación",
+    "description": "Las reglas de salida y transporte principal se distinguen por quién contrata el trayecto y dónde se transmite el riesgo.",
+    "order": 108,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Incoterms de salida y transporte principal en la práctica",
+        "paragraphs": [
+          "En reglas del grupo C, el vendedor paga el transporte principal aunque el riesgo se transfiera antes del destino."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "slug": "comercio-internacional-y-aduanas/incoterms-y-contratacion/incoterms-de-llegada-y-entrega",
+    "parentId": "106",
+    "type": "informativa",
+    "title": "Incoterms de llegada y entrega",
+    "keyword": "incoterms de llegada y entrega",
+    "seoTitle": "Incoterms de llegada y entrega: qué es, cómo funciona y documentación",
+    "description": "Las reglas de llegada asignan al vendedor la entrega en un lugar convenido de destino, con diferencias en descarga y trámites.",
+    "order": 109,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Incoterms de llegada y entrega en la práctica",
+        "paragraphs": [
+          "DAP sitúa la entrega con la carga lista para descargar, mientras que DPU contempla la descarga en el lugar acordado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "slug": "comercio-internacional-y-aduanas/aduanas",
+    "parentId": "101",
+    "type": "subvertical",
+    "title": "Aduanas",
+    "keyword": "aduanas",
+    "seoTitle": "Aduanas: conceptos, procesos y claves",
+    "description": "La operativa aduanera requiere identificar la mercancía, el operador y el tratamiento aplicable a su movimiento.",
+    "order": 110,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Aduanas en la práctica",
+        "paragraphs": [
+          "Preparar los datos antes de la llegada ayuda a evitar esperas asociadas a expedientes incompletos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "111",
+    "slug": "comercio-internacional-y-aduanas/aduanas/despacho-aduanero",
+    "parentId": "110",
+    "type": "informativa",
+    "title": "Despacho aduanero",
+    "keyword": "despacho aduanero",
+    "seoTitle": "Despacho aduanero: qué es, cómo funciona y documentación",
+    "description": "El despacho aduanero reúne las formalidades para asignar una mercancía a un régimen o autorizar su salida según el caso.",
+    "order": 111,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Despacho aduanero en la práctica",
+        "paragraphs": [
+          "Una declaración reúne datos de mercancía, origen, valor y documentos de soporte para el control correspondiente."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "slug": "comercio-internacional-y-aduanas/aduanas/eori-y-representacion-aduanera",
+    "parentId": "110",
+    "type": "informativa",
+    "title": "EORI y representación aduanera",
+    "keyword": "eori y representación aduanera",
+    "seoTitle": "EORI y representación aduanera: qué es, cómo funciona y documentación",
+    "description": "EORI identifica a operadores ante las aduanas de la Unión Europea. La representación determina cómo actúa un tercero en sus trámites.",
+    "order": 112,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "EORI y representación aduanera en la práctica",
+        "paragraphs": [
+          "Al entregar instrucciones al representante, confirma quién figura como declarante y en qué modalidad interviene."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "113",
+    "slug": "comercio-internacional-y-aduanas/aduanas/clasificacion-arancelaria-y-taric",
+    "parentId": "110",
+    "type": "informativa",
+    "title": "Clasificación arancelaria y TARIC",
+    "keyword": "clasificación arancelaria y taric",
+    "seoTitle": "Clasificación arancelaria y TARIC: qué es, cómo funciona y documentación",
+    "description": "La clasificación arancelaria identifica mercancías con códigos. TARIC integra medidas arancelarias y comerciales de la Unión Europea.",
+    "order": 113,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Clasificación arancelaria y TARIC en la práctica",
+        "paragraphs": [
+          "Dos artículos parecidos pueden clasificarse distinto si cambian su material, función o composición."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "114",
+    "slug": "comercio-internacional-y-aduanas/aduanas/valor-en-aduana-y-aranceles",
+    "parentId": "110",
+    "type": "informativa",
+    "title": "Valor en aduana y aranceles",
+    "keyword": "valor en aduana y aranceles",
+    "seoTitle": "Valor en aduana y aranceles: qué es, cómo funciona y documentación",
+    "description": "El valor en aduana sirve de base para determinados derechos. La clasificación y el origen también pueden afectar a su aplicación.",
+    "order": 114,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Valor en aduana y aranceles en la práctica",
+        "paragraphs": [
+          "En una importación, los importes de factura y de transporte deben examinarse según el método de valoración aplicable."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "slug": "comercio-internacional-y-aduanas/regimenes-y-depositos",
+    "parentId": "101",
+    "type": "subvertical",
+    "title": "Regímenes y depósitos",
+    "keyword": "regímenes y depósitos",
+    "seoTitle": "Regímenes y depósitos: conceptos, procesos y claves",
+    "description": "Los regímenes y depósitos aduaneros encuadran movimientos, almacenamiento y usos de mercancías bajo control.",
+    "order": 115,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Regímenes y depósitos en la práctica",
+        "paragraphs": [
+          "El tratamiento cambia si la mercancía sigue en tránsito o queda vinculada a un régimen de almacenamiento."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "116",
+    "slug": "comercio-internacional-y-aduanas/regimenes-y-depositos/deposito-aduanero-y-deposito-temporal",
+    "parentId": "115",
+    "type": "informativa",
+    "title": "Depósito aduanero y depósito temporal",
+    "keyword": "depósito aduanero y depósito temporal",
+    "seoTitle": "Depósito aduanero y depósito temporal: qué es, tipos y claves",
+    "description": "El depósito temporal cubre la espera antes de asignar un régimen. El depósito aduanero permite almacenar mercancías bajo un régimen específico.",
+    "order": 116,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Depósito aduanero y depósito temporal en la práctica",
+        "paragraphs": [
+          "El operador debe poder identificar la situación aduanera de cada unidad aunque comparta recinto con otras."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "slug": "comercio-internacional-y-aduanas/regimenes-y-depositos/transito-aduanero",
+    "parentId": "115",
+    "type": "informativa",
+    "title": "Tránsito aduanero",
+    "keyword": "tránsito aduanero",
+    "seoTitle": "Tránsito aduanero: qué es, tipos y claves",
+    "description": "El tránsito aduanero facilita movimientos bajo control entre puntos sin liquidar en cada paso los derechos potencialmente aplicables.",
+    "order": 117,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Tránsito aduanero en la práctica",
+        "paragraphs": [
+          "El movimiento requiere seguimiento hasta que la aduana de destino confirma su presentación y finalización."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118",
+    "slug": "comercio-internacional-y-aduanas/regimenes-y-depositos/regimenes-especiales-aduaneros",
+    "parentId": "115",
+    "type": "informativa",
+    "title": "Regímenes especiales aduaneros",
+    "keyword": "regímenes especiales aduaneros",
+    "seoTitle": "Regímenes especiales aduaneros: qué es, tipos y claves",
+    "description": "Los regímenes especiales contemplan usos como tránsito, depósito, destino especial o perfeccionamiento.",
+    "order": 118,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Regímenes especiales aduaneros en la práctica",
+        "paragraphs": [
+          "Una empresa que importa para transformar y reexportar necesita distinguir ese flujo del destinado directamente a venta local."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "119",
+    "slug": "comercio-internacional-y-aduanas/regimenes-y-depositos/oea",
+    "parentId": "115",
+    "type": "informativa",
+    "title": "OEA",
+    "keyword": "oea",
+    "seoTitle": "OEA: qué es, tipos y claves",
+    "description": "OEA significa Operador Económico Autorizado y reconoce el cumplimiento de criterios aduaneros en el ámbito de la Unión Europea.",
+    "order": 119,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "OEA en la práctica",
+        "paragraphs": [
+          "El seguimiento de accesos, registros e incidencias ayuda a documentar cómo se controla la cadena logística."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "slug": "operadores-y-servicios-logisticos",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Operadores y servicios logísticos",
+    "keyword": "operadores y servicios logísticos",
+    "seoTitle": "Operadores y servicios logísticos: guía, conceptos y áreas clave",
+    "description": "Los operadores logísticos asumen tareas como almacenar, transportar, preparar pedidos o coordinar expediciones internacionales.",
+    "order": 120,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Operadores y servicios logísticos en la práctica",
+        "paragraphs": [
+          "Antes de comparar servicios, delimita quién ejecuta cada tarea y quién atiende incidencias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "slug": "operadores-y-servicios-logisticos/operadores-logisticos",
+    "parentId": "120",
+    "type": "subvertical",
+    "title": "Operadores logísticos",
+    "keyword": "operadores logísticos",
+    "seoTitle": "Operadores logísticos: conceptos, procesos y claves",
+    "description": "Los operadores se distinguen por las actividades que ejecutan y por el nivel de coordinación que aportan.",
+    "order": 121,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Operadores logísticos en la práctica",
+        "paragraphs": [
+          "Externalizar un almacén puede requerir integrar stock, pedidos y devoluciones con el operador."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "122",
+    "slug": "operadores-y-servicios-logisticos/operadores-logisticos/operador-logistico",
+    "parentId": "121",
+    "type": "informativa",
+    "title": "Operador logístico",
+    "keyword": "operador logístico",
+    "seoTitle": "Operador logístico: qué es, funciones y diferencias",
+    "description": "Un operador logístico gestiona actividades logísticas para otras organizaciones según el alcance contratado.",
+    "order": 122,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Operador logístico en la práctica",
+        "paragraphs": [
+          "Un acuerdo puede incluir recepción, almacenaje y preparación, dejando la entrega final a otra empresa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "123",
+    "slug": "operadores-y-servicios-logisticos/operadores-logisticos/1pl-2pl-y-3pl",
+    "parentId": "121",
+    "type": "informativa",
+    "title": "1PL, 2PL y 3PL",
+    "keyword": "1pl, 2pl y 3pl",
+    "seoTitle": "1PL, 2PL y 3PL: qué es, tipos y claves",
+    "description": "Las etiquetas 1PL, 2PL y 3PL describen distintos grados de ejecución propia y contratación externa de recursos o servicios.",
+    "order": 123,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "1PL, 2PL y 3PL en la práctica",
+        "paragraphs": [
+          "Un fabricante que contrata transporte puntual tiene una relación distinta a otro que delega almacenaje y preparación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "124",
+    "slug": "operadores-y-servicios-logisticos/operadores-logisticos/4pl-y-5pl",
+    "parentId": "121",
+    "type": "informativa",
+    "title": "4PL y 5PL",
+    "keyword": "4pl y 5pl",
+    "seoTitle": "4PL y 5PL: qué es, tipos y claves",
+    "description": "4PL suele describir la coordinación de varios operadores. 5PL se usa para modelos de orquestación de redes y volúmenes agregados.",
+    "order": 124,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "4PL y 5PL en la práctica",
+        "paragraphs": [
+          "Un integrador puede asignar expediciones entre varios operadores y unificar el seguimiento de servicio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "125",
+    "slug": "operadores-y-servicios-logisticos/operadores-logisticos/outsourcing-logistico",
+    "parentId": "121",
+    "type": "informativa",
+    "title": "Outsourcing logístico",
+    "keyword": "outsourcing logístico",
+    "seoTitle": "Outsourcing logístico: qué es, tipos y claves",
+    "description": "El outsourcing logístico delega actividades operativas a un tercero mediante un alcance y compromisos acordados.",
+    "order": 125,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Outsourcing logístico en la práctica",
+        "paragraphs": [
+          "Define por adelantado qué sucede con el inventario, los datos y los pedidos pendientes si finaliza el contrato."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "126",
+    "slug": "operadores-y-servicios-logisticos/transporte-internacional",
+    "parentId": "120",
+    "type": "subvertical",
+    "title": "Transporte internacional",
+    "keyword": "transporte internacional",
+    "seoTitle": "Transporte internacional: conceptos, procesos y claves",
+    "description": "La organización del transporte internacional reúne agentes que reservan capacidad, consolidan carga y coordinan compañías y terminales.",
+    "order": 126,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transporte internacional en la práctica",
+        "paragraphs": [
+          "Distinguir quién emite el documento de transporte ayuda a identificar el rol de cada participante."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "127",
+    "slug": "operadores-y-servicios-logisticos/transporte-internacional/transitario-y-freight-forwarder",
+    "parentId": "126",
+    "type": "informativa",
+    "title": "Transitario y freight forwarder",
+    "keyword": "transitario y freight forwarder",
+    "seoTitle": "Transitario y freight forwarder: qué es, funciones y diferencias",
+    "description": "Un transitario o freight forwarder organiza expediciones y coordina proveedores de transporte y servicios asociados.",
+    "order": 127,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Transitario y freight forwarder en la práctica",
+        "paragraphs": [
+          "Puede combinar recogida por carretera, reserva marítima y entrega final bajo una misma operativa coordinada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "128",
+    "slug": "operadores-y-servicios-logisticos/transporte-internacional/nvocc-y-consolidador",
+    "parentId": "126",
+    "type": "informativa",
+    "title": "NVOCC y consolidador",
+    "keyword": "nvocc y consolidador",
+    "seoTitle": "NVOCC y consolidador: qué es, funciones y diferencias",
+    "description": "Un NVOCC ofrece transporte marítimo sin operar el buque. Un consolidador agrupa partidas para compartir capacidad.",
+    "order": 128,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "NVOCC y consolidador en la práctica",
+        "paragraphs": [
+          "En un envío LCL, varias expediciones viajan juntas mientras conservan sus referencias documentales."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "129",
+    "slug": "operadores-y-servicios-logisticos/transporte-internacional/consignatario-y-agente-de-carga",
+    "parentId": "126",
+    "type": "informativa",
+    "title": "Consignatario y agente de carga",
+    "keyword": "consignatario y agente de carga",
+    "seoTitle": "Consignatario y agente de carga: qué es, funciones y diferencias",
+    "description": "El consignatario de buques representa al armador o naviero en puerto. El agente de carga coordina expediciones para sus clientes.",
+    "order": 129,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Consignatario y agente de carga en la práctica",
+        "paragraphs": [
+          "Una escala puede requerir gestiones del buque a la vez que el agente organiza la retirada de la carga."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "slug": "operadores-y-servicios-logisticos/transporte-internacional/carrier-shipper-y-consignee",
+    "parentId": "126",
+    "type": "informativa",
+    "title": "Carrier, shipper y consignee",
+    "keyword": "carrier, shipper y consignee",
+    "seoTitle": "Carrier, shipper y consignee: qué es, funciones y diferencias",
+    "description": "Carrier transporta, shipper figura como cargador y consignee como destinatario en la documentación correspondiente.",
+    "order": 130,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Carrier, shipper y consignee en la práctica",
+        "paragraphs": [
+          "Comprueba estos campos antes de emitir instrucciones, sobre todo si el comprador y quien recibe físicamente son distintos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "slug": "operadores-y-servicios-logisticos/servicios-especializados",
+    "parentId": "120",
+    "type": "subvertical",
+    "title": "Servicios especializados",
+    "keyword": "servicios especializados",
+    "seoTitle": "Servicios especializados: conceptos, procesos y claves",
+    "description": "Los servicios logísticos especializados responden a necesidades de canal, expedición o gestión de inventario.",
+    "order": 131,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Servicios especializados en la práctica",
+        "paragraphs": [
+          "Un proveedor de fulfillment y uno de paquetería pueden intervenir en etapas distintas de un mismo pedido."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "132",
+    "slug": "operadores-y-servicios-logisticos/servicios-especializados/agencia-de-transporte",
+    "parentId": "131",
+    "type": "informativa",
+    "title": "Agencia de transporte",
+    "keyword": "agencia de transporte",
+    "seoTitle": "Agencia de transporte: qué es, cómo funciona y documentación",
+    "description": "Una agencia de transporte intermedia en la contratación y organización de expediciones según el servicio ofrecido.",
+    "order": 132,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Agencia de transporte en la práctica",
+        "paragraphs": [
+          "Al solicitar una recogida, detalla horarios, medios de descarga y si el destino exige cita previa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "133",
+    "slug": "operadores-y-servicios-logisticos/servicios-especializados/fulfillment-logistico",
+    "parentId": "131",
+    "type": "informativa",
+    "title": "Fulfillment logístico",
+    "keyword": "fulfillment logístico",
+    "seoTitle": "Fulfillment logístico: qué es, tipos y claves",
+    "description": "Fulfillment cubre el ciclo operativo del pedido, desde el stock hasta preparación, expedición y, según el alcance, devoluciones.",
+    "order": 133,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Fulfillment logístico en la práctica",
+        "paragraphs": [
+          "Con un nuevo canal de venta conviene probar cómo entran el pedido y su cancelación antes del lanzamiento."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "slug": "operadores-y-servicios-logisticos/servicios-especializados/contract-logistics",
+    "parentId": "131",
+    "type": "informativa",
+    "title": "Contract logistics",
+    "keyword": "contract logistics",
+    "seoTitle": "Contract logistics: qué es, tipos y claves",
+    "description": "Contract logistics integra servicios operativos sostenidos bajo un contrato adaptado a una cadena concreta.",
+    "order": 134,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Contract logistics en la práctica",
+        "paragraphs": [
+          "Un proyecto de varios años puede incluir recursos, sistemas, tarifas por actividad y niveles de servicio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135",
+    "slug": "operadores-y-servicios-logisticos/servicios-especializados/courier-y-paqueteria",
+    "parentId": "131",
+    "type": "informativa",
+    "title": "Courier y paquetería",
+    "keyword": "courier y paquetería",
+    "seoTitle": "Courier y paquetería: qué es, tipos y claves",
+    "description": "Courier y paquetería organizan envíos de bultos mediante redes de recogida, clasificación y entrega.",
+    "order": 135,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Courier y paquetería en la práctica",
+        "paragraphs": [
+          "Las medidas y el peso de cada bulto determinan si puede circular por una red automatizada estándar."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "slug": "tecnologia-logistica",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Tecnología logística",
+    "keyword": "tecnología logística",
+    "seoTitle": "Tecnología logística: guía, conceptos y áreas clave",
+    "description": "La tecnología logística conecta datos, equipos y sistemas para ejecutar y controlar los flujos físicos.",
+    "order": 136,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Tecnología logística en la práctica",
+        "paragraphs": [
+          "Antes de automatizar un movimiento conviene definir cómo se identifica la unidad y qué evento confirma su ejecución."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "slug": "tecnologia-logistica/digitalizacion-e-integracion",
+    "parentId": "136",
+    "type": "subvertical",
+    "title": "Digitalización e integración",
+    "keyword": "digitalización e integración",
+    "seoTitle": "Digitalización e integración: conceptos, procesos y claves",
+    "description": "Digitalizar e integrar permite registrar operaciones y trasladar datos entre las herramientas que intervienen.",
+    "order": 137,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Digitalización e integración en la práctica",
+        "paragraphs": [
+          "Un identificador de pedido compartido facilita conciliar los registros de venta, almacén y transporte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "138",
+    "slug": "tecnologia-logistica/digitalizacion-e-integracion/digitalizacion-logistica",
+    "parentId": "137",
+    "type": "informativa",
+    "title": "Digitalización logística",
+    "keyword": "digitalización logística",
+    "seoTitle": "Digitalización logística: qué es, tipos y claves",
+    "description": "Digitalizar la logística convierte instrucciones, documentos y eventos en registros utilizables por los equipos.",
+    "order": 138,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Digitalización logística en la práctica",
+        "paragraphs": [
+          "Sustituir un parte en papel por un registro digital permite conocer la hora y ubicación de una incidencia."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "139",
+    "slug": "tecnologia-logistica/digitalizacion-e-integracion/integracion-de-sistemas-logisticos",
+    "parentId": "137",
+    "type": "informativa",
+    "title": "Integración de sistemas logísticos",
+    "keyword": "integración de sistemas logísticos",
+    "seoTitle": "Integración de sistemas logísticos: qué es, tipos y claves",
+    "description": "Integrar sistemas logísticos enlaza datos maestros y eventos entre herramientas que tienen responsabilidades diferentes.",
+    "order": 139,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Integración de sistemas logísticos en la práctica",
+        "paragraphs": [
+          "Una confirmación de picking puede actualizar inventario y habilitar el aviso de expedición en otro sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "140",
+    "slug": "tecnologia-logistica/digitalizacion-e-integracion/api-y-edi-en-logistica",
+    "parentId": "137",
+    "type": "informativa",
+    "title": "API y EDI en logística",
+    "keyword": "api y edi en logística",
+    "seoTitle": "API y EDI en logística: qué es, tipos y claves",
+    "description": "Una API ofrece interfaces entre aplicaciones. EDI intercambia documentos de negocio con formatos estructurados.",
+    "order": 140,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "API y EDI en logística en la práctica",
+        "paragraphs": [
+          "Un cliente puede enviar pedidos por EDI y recibir actualizaciones de seguimiento mediante API."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "141",
+    "slug": "tecnologia-logistica/digitalizacion-e-integracion/cloud-logistics",
+    "parentId": "137",
+    "type": "informativa",
+    "title": "Cloud logistics",
+    "keyword": "cloud logistics",
+    "seoTitle": "Cloud logistics: qué es, tipos y claves",
+    "description": "Cloud logistics usa aplicaciones y servicios alojados para operar y compartir información logística.",
+    "order": 141,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Cloud logistics en la práctica",
+        "paragraphs": [
+          "Evalúa cómo se recupera la operación del almacén si se interrumpe temporalmente la conectividad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "142",
+    "slug": "tecnologia-logistica/identificacion-y-trazabilidad",
+    "parentId": "136",
+    "type": "subvertical",
+    "title": "Identificación y trazabilidad",
+    "keyword": "identificación y trazabilidad",
+    "seoTitle": "Identificación y trazabilidad: conceptos, procesos y claves",
+    "description": "Identificación y trazabilidad vinculan unidades físicas con los registros que explican sus movimientos.",
+    "order": 142,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Identificación y trazabilidad en la práctica",
+        "paragraphs": [
+          "Escanear un identificador al cambiar de instalación permite rastrear quién recibió la unidad y cuándo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143",
+    "slug": "tecnologia-logistica/identificacion-y-trazabilidad/codigo-de-barras-y-sscc",
+    "parentId": "142",
+    "type": "informativa",
+    "title": "Código de barras y SSCC",
+    "keyword": "código de barras y sscc",
+    "seoTitle": "Código de barras y SSCC: qué es, tipos y claves",
+    "description": "Los códigos de barras codifican identificadores. SSCC identifica unidades logísticas como un palé o un bulto.",
+    "order": 143,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Código de barras y SSCC en la práctica",
+        "paragraphs": [
+          "Escanear el SSCC en recepción permite asociar el palé con el aviso de expedición que lo describe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "144",
+    "slug": "tecnologia-logistica/identificacion-y-trazabilidad/rfid-en-logistica",
+    "parentId": "142",
+    "type": "informativa",
+    "title": "RFID en logística",
+    "keyword": "rfid en logística",
+    "seoTitle": "RFID en logística: qué es, tipos y claves",
+    "description": "RFID usa radiofrecuencia para identificar etiquetas mediante un lector, según su alcance y entorno.",
+    "order": 144,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "RFID en logística en la práctica",
+        "paragraphs": [
+          "Antes de instalar un arco de lectura, prueba el efecto del metal, líquidos y palés cercanos sobre las lecturas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145",
+    "slug": "tecnologia-logistica/identificacion-y-trazabilidad/iot-y-telematica",
+    "parentId": "142",
+    "type": "informativa",
+    "title": "IoT y telemática",
+    "keyword": "iot y telemática",
+    "seoTitle": "IoT y telemática: qué es, tipos y claves",
+    "description": "IoT captura datos mediante dispositivos conectados. La telemática combina comunicación y datos operativos de vehículos o equipos.",
+    "order": 145,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "IoT y telemática en la práctica",
+        "paragraphs": [
+          "Un sensor puede enviar posición y temperatura para investigar la evolución de una incidencia en ruta."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "146",
+    "slug": "tecnologia-logistica/identificacion-y-trazabilidad/trazabilidad-logistica",
+    "parentId": "142",
+    "type": "informativa",
+    "title": "Trazabilidad logística",
+    "keyword": "trazabilidad logística",
+    "seoTitle": "Trazabilidad logística: qué es, tipos y claves",
+    "description": "La trazabilidad reconstruye el recorrido de un producto o una unidad a partir de identificadores, fechas y eventos.",
+    "order": 146,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Trazabilidad logística en la práctica",
+        "paragraphs": [
+          "Si se detecta un lote defectuoso, el historial permite comprobar en qué expediciones se incluyó."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147",
+    "slug": "tecnologia-logistica/automatizacion-y-robotica",
+    "parentId": "136",
+    "type": "subvertical",
+    "title": "Automatización y robótica",
+    "keyword": "automatización y robótica",
+    "seoTitle": "Automatización y robótica: conceptos, procesos y claves",
+    "description": "La automatización y la robótica delegan movimientos o decisiones repetitivas en equipos y sistemas coordinados.",
+    "order": 147,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Automatización y robótica en la práctica",
+        "paragraphs": [
+          "Mide el volumen y las excepciones antes de dimensionar equipos para el turno de mayor demanda."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "148",
+    "slug": "tecnologia-logistica/automatizacion-y-robotica/automatizacion-logistica",
+    "parentId": "147",
+    "type": "informativa",
+    "title": "Automatización logística",
+    "keyword": "automatización logística",
+    "seoTitle": "Automatización logística: qué es, tipos y claves",
+    "description": "Automatizar logística consiste en ejecutar tareas mediante reglas o equipos con menor intervención manual.",
+    "order": 148,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Automatización logística en la práctica",
+        "paragraphs": [
+          "Un clasificador puede dirigir cada bulto según su ruta si recibe una identificación legible."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "149",
+    "slug": "tecnologia-logistica/automatizacion-y-robotica/agv-y-amr",
+    "parentId": "147",
+    "type": "informativa",
+    "title": "AGV y AMR",
+    "keyword": "agv y amr",
+    "seoTitle": "AGV y AMR: qué es, tipos y claves",
+    "description": "Los AGV suelen operar con recorridos guiados. Los AMR navegan con un mayor grado de autonomía dentro de su entorno.",
+    "order": 149,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "AGV y AMR en la práctica",
+        "paragraphs": [
+          "En una instalación que cambia de layout con frecuencia importa cómo se actualizan recorridos y zonas de seguridad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "150",
+    "slug": "tecnologia-logistica/automatizacion-y-robotica/robots-de-picking",
+    "parentId": "147",
+    "type": "informativa",
+    "title": "Robots de picking",
+    "keyword": "robots de picking",
+    "seoTitle": "Robots de picking: cómo funciona, proceso y buenas prácticas",
+    "description": "Los robots de picking extraen o manipulan referencias mediante sistemas de percepción, agarre y control.",
+    "order": 150,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Robots de picking en la práctica",
+        "paragraphs": [
+          "Un surtido con envases deformables y superficies reflectantes requiere validar los agarres con muestras reales."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "151",
+    "slug": "tecnologia-logistica/automatizacion-y-robotica/orquestacion-de-almacenes",
+    "parentId": "147",
+    "type": "informativa",
+    "title": "Orquestación de almacenes",
+    "keyword": "orquestación de almacenes",
+    "seoTitle": "Orquestación de almacenes: qué es, tipos y claves",
+    "description": "La orquestación de almacén sincroniza tareas, personas y equipos conforme a las prioridades de salida.",
+    "order": 151,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Orquestación de almacenes en la práctica",
+        "paragraphs": [
+          "Si se satura packing, el sistema puede ajustar el ritmo al que libera trabajo de picking."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "152",
+    "slug": "tecnologia-logistica/ia-y-tecnologias-emergentes",
+    "parentId": "136",
+    "type": "subvertical",
+    "title": "IA y tecnologías emergentes",
+    "keyword": "ia y tecnologías emergentes",
+    "seoTitle": "IA y tecnologías emergentes: conceptos, procesos y claves",
+    "description": "Las tecnologías emergentes ayudan a interpretar datos, automatizar capturas y simular decisiones operativas.",
+    "order": 152,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "IA y tecnologías emergentes en la práctica",
+        "paragraphs": [
+          "Antes de introducir un modelo, identifica qué decisión mejorará y cómo se medirá su resultado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "153",
+    "slug": "tecnologia-logistica/ia-y-tecnologias-emergentes/inteligencia-artificial-en-logistica",
+    "parentId": "152",
+    "type": "informativa",
+    "title": "Inteligencia artificial en logística",
+    "keyword": "inteligencia artificial en logística",
+    "seoTitle": "Inteligencia artificial en logística: qué es, tipos y claves",
+    "description": "La inteligencia artificial se aplica a tareas como estimar demanda, prever retrasos, priorizar incidencias o reconocer documentos.",
+    "order": 153,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Inteligencia artificial en logística en la práctica",
+        "paragraphs": [
+          "Contrasta una previsión automática con un método sencillo y revisa los casos donde ambos divergen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "154",
+    "slug": "tecnologia-logistica/ia-y-tecnologias-emergentes/machine-learning-y-analitica-predictiva",
+    "parentId": "152",
+    "type": "informativa",
+    "title": "Machine learning y analítica predictiva",
+    "keyword": "machine learning y analítica predictiva",
+    "seoTitle": "Machine learning y analítica predictiva: qué es, tipos y claves",
+    "description": "El machine learning ajusta modelos con datos para estimar resultados futuros o clasificar eventos.",
+    "order": 154,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Machine learning y analítica predictiva en la práctica",
+        "paragraphs": [
+          "Una previsión de volumen debe probarse en periodos posteriores al entrenamiento para medir su capacidad de generalizar."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "155",
+    "slug": "tecnologia-logistica/ia-y-tecnologias-emergentes/ocr-y-vision-artificial",
+    "parentId": "152",
+    "type": "informativa",
+    "title": "OCR y visión artificial",
+    "keyword": "ocr y visión artificial",
+    "seoTitle": "OCR y visión artificial: qué es, tipos y claves",
+    "description": "OCR extrae texto de imágenes. La visión artificial también identifica objetos, patrones o defectos visuales.",
+    "order": 155,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "OCR y visión artificial en la práctica",
+        "paragraphs": [
+          "Tras leer una etiqueta dañada, conviene enviar el resultado a revisión si la confianza cae por debajo del umbral."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "156",
+    "slug": "tecnologia-logistica/ia-y-tecnologias-emergentes/gemelo-digital-logistico",
+    "parentId": "152",
+    "type": "informativa",
+    "title": "Gemelo digital logístico",
+    "keyword": "gemelo digital logístico",
+    "seoTitle": "Gemelo digital logístico: qué es, tipos y claves",
+    "description": "Un gemelo digital representa un sistema físico y usa datos y modelos para simular su comportamiento.",
+    "order": 156,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gemelo digital logístico en la práctica",
+        "paragraphs": [
+          "Se puede probar cómo cambia la cola de un muelle al redistribuir las citas entre dos turnos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "157",
+    "slug": "software-logistico-y-erp",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Software logístico y ERP",
+    "keyword": "software logístico y erp",
+    "seoTitle": "Software logístico y ERP: guía, conceptos y áreas clave",
+    "description": "El software logístico gestiona pedidos, inventario, transporte e intercambio de datos con otras herramientas.",
+    "order": 157,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Software logístico y ERP en la práctica",
+        "paragraphs": [
+          "Antes de asignar funciones, decide qué sistema será la fuente de cada dato relevante."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "slug": "software-logistico-y-erp/erp-logistico",
+    "parentId": "157",
+    "type": "subvertical",
+    "title": "ERP logístico",
+    "keyword": "erp logístico",
+    "seoTitle": "ERP logístico: conceptos, procesos y claves",
+    "description": "El ERP logístico reúne datos empresariales que conectan operación, costes y administración.",
+    "order": 158,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP logístico en la práctica",
+        "paragraphs": [
+          "Una expedición puede generar eventos operativos y una liquidación, ambos vinculados al mismo pedido."
+        ]
+      }
+    ],
+    "heading": "ERP logístico: temas y conceptos"
+  },
+  {
+    "id": "159",
+    "slug": "software-logistico-y-erp/erp-logistico/erp-logistico",
+    "parentId": "158",
+    "type": "informativa",
+    "title": "ERP logístico",
+    "keyword": "erp logístico",
+    "seoTitle": "ERP logístico: qué es, funciones y aplicaciones",
+    "description": "Un ERP logístico integra procesos empresariales como compras, ventas, costes, facturación y parte de la operación logística.",
+    "order": 159,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP logístico en la práctica",
+        "paragraphs": [
+          "El registro de costes de una expedición puede alimentar su facturación y su análisis de margen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "160",
+    "slug": "software-logistico-y-erp/erp-logistico/erp-para-transitarios",
+    "parentId": "158",
+    "type": "informativa",
+    "title": "ERP para transitarios",
+    "keyword": "erp para transitarios",
+    "seoTitle": "ERP para transitarios: qué es, funciones y aplicaciones",
+    "description": "Un ERP para transitarios ayuda a gestionar expedientes, cotizaciones, reservas, documentos y costes de expedición.",
+    "order": 160,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP para transitarios en la práctica",
+        "paragraphs": [
+          "Un expediente marítimo puede reunir costes de recogida, terminal, flete y entrega a destino."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "161",
+    "slug": "software-logistico-y-erp/erp-logistico/erp-para-operadores-logisticos",
+    "parentId": "158",
+    "type": "informativa",
+    "title": "ERP para operadores logísticos",
+    "keyword": "erp para operadores logísticos",
+    "seoTitle": "ERP para operadores logísticos: qué es, funciones y aplicaciones",
+    "description": "Un ERP para operadores ayuda a vincular servicios, clientes, tarifas y facturación con los datos de la ejecución.",
+    "order": 161,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP para operadores logísticos en la práctica",
+        "paragraphs": [
+          "Las altas de clientes pueden requerir tarifas por almacenaje, manipulación y preparación con unidades de cobro distintas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "162",
+    "slug": "software-logistico-y-erp/erp-logistico/erp-para-transporte-y-aduanas",
+    "parentId": "158",
+    "type": "informativa",
+    "title": "ERP para transporte y aduanas",
+    "keyword": "erp para transporte y aduanas",
+    "seoTitle": "ERP para transporte y aduanas: qué es, funciones y aplicaciones",
+    "description": "Un ERP para transporte y aduanas relaciona expediciones, documentos, costes y datos utilizados para trámites.",
+    "order": 162,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP para transporte y aduanas en la práctica",
+        "paragraphs": [
+          "Es importante identificar qué campos se validan en el sistema aduanero y cuáles provienen del expediente de transporte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163",
+    "slug": "software-logistico-y-erp/software-operativo",
+    "parentId": "157",
+    "type": "subvertical",
+    "title": "Software operativo",
+    "keyword": "software operativo",
+    "seoTitle": "Software operativo: conceptos, procesos y claves",
+    "description": "El software operativo se especializa en actividades como almacenar, preparar, transportar o enrutar pedidos.",
+    "order": 163,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Software operativo en la práctica",
+        "paragraphs": [
+          "Un pedido puede pasar del OMS al WMS y continuar al TMS cuando está listo para planificar la salida."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "164",
+    "slug": "software-logistico-y-erp/software-operativo/wms-o-sga",
+    "parentId": "163",
+    "type": "informativa",
+    "title": "WMS o SGA",
+    "keyword": "wms o sga",
+    "seoTitle": "WMS o SGA: qué es, funciones y aplicaciones",
+    "description": "WMS o SGA gestiona existencias, ubicaciones y tareas de almacén como recepción, picking y reposición.",
+    "order": 164,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "WMS o SGA en la práctica",
+        "paragraphs": [
+          "Una regla del WMS puede dirigir la preparación al lote que caduca antes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165",
+    "slug": "software-logistico-y-erp/software-operativo/tms",
+    "parentId": "163",
+    "type": "informativa",
+    "title": "TMS",
+    "keyword": "tms",
+    "seoTitle": "TMS: qué es, funciones y aplicaciones",
+    "description": "TMS organiza la planificación, ejecución y seguimiento de operaciones de transporte.",
+    "order": 165,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "TMS en la práctica",
+        "paragraphs": [
+          "Puede agrupar pedidos en rutas, comparar costes de transportistas y registrar la prueba de entrega."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166",
+    "slug": "software-logistico-y-erp/software-operativo/oms-y-dom",
+    "parentId": "163",
+    "type": "informativa",
+    "title": "OMS y DOM",
+    "keyword": "oms y dom",
+    "seoTitle": "OMS y DOM: qué es, funciones y aplicaciones",
+    "description": "OMS gestiona el ciclo del pedido. DOM distribuye su cumplimiento entre nodos o canales disponibles.",
+    "order": 166,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "OMS y DOM en la práctica",
+        "paragraphs": [
+          "Una red omnicanal puede decidir si un pedido sale de tienda o almacén según stock y plazo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "167",
+    "slug": "software-logistico-y-erp/software-operativo/yms-wes-y-wcs",
+    "parentId": "163",
+    "type": "informativa",
+    "title": "YMS, WES y WCS",
+    "keyword": "yms, wes y wcs",
+    "seoTitle": "YMS, WES y WCS: qué es, funciones y aplicaciones",
+    "description": "YMS gestiona el patio, WES coordina la ejecución del almacén y WCS controla equipos de automatización.",
+    "order": 167,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "YMS, WES y WCS en la práctica",
+        "paragraphs": [
+          "Una descarga puede comenzar con la asignación de puerta en YMS y continuar con señales de transporte interno gestionadas por WCS."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "168",
+    "slug": "software-logistico-y-erp/integracion-de-software",
+    "parentId": "157",
+    "type": "subvertical",
+    "title": "Integración de software",
+    "keyword": "integración de software",
+    "seoTitle": "Integración de software: conceptos, procesos y claves",
+    "description": "Integrar software implica asignar responsabilidades y asegurar que eventos y estados se intercambian con consistencia.",
+    "order": 168,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Integración de software en la práctica",
+        "paragraphs": [
+          "Si falla un mensaje, el reintento debe reconocer el mismo identificador para evitar registrar dos salidas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "169",
+    "slug": "software-logistico-y-erp/integracion-de-software/erp-y-wms",
+    "parentId": "168",
+    "type": "informativa",
+    "title": "ERP y WMS",
+    "keyword": "erp y wms",
+    "seoTitle": "ERP y WMS: qué es, funciones y aplicaciones",
+    "description": "ERP y WMS suelen compartir artículos, pedidos y movimientos, con distintas responsabilidades sobre el dato.",
+    "order": 169,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP y WMS en la práctica",
+        "paragraphs": [
+          "El ERP puede enviar el pedido y el WMS confirmar lo preparado y las cantidades que salieron."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "170",
+    "slug": "software-logistico-y-erp/integracion-de-software/erp-y-tms",
+    "parentId": "168",
+    "type": "informativa",
+    "title": "ERP y TMS",
+    "keyword": "erp y tms",
+    "seoTitle": "ERP y TMS: qué es, funciones y aplicaciones",
+    "description": "ERP y TMS conectan datos de pedido, órdenes de transporte, costes y confirmaciones.",
+    "order": 170,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP y TMS en la práctica",
+        "paragraphs": [
+          "La prueba de entrega puede cerrar el servicio en TMS y habilitar un proceso de facturación en ERP."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "171",
+    "slug": "software-logistico-y-erp/integracion-de-software/erp-api-y-edi",
+    "parentId": "168",
+    "type": "informativa",
+    "title": "ERP, API y EDI",
+    "keyword": "erp, api y edi",
+    "seoTitle": "ERP, API y EDI: qué es, funciones y aplicaciones",
+    "description": "El ERP puede intercambiar datos con otros sistemas por API o EDI según el tipo de operación.",
+    "order": 171,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP, API y EDI en la práctica",
+        "paragraphs": [
+          "Define quién recibe y valida las confirmaciones de pedido antes de automatizar su intercambio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "172",
+    "slug": "software-logistico-y-erp/integracion-de-software/integraciones-con-clientes-proveedores-y-carriers",
+    "parentId": "168",
+    "type": "informativa",
+    "title": "Integraciones con clientes, proveedores y carriers",
+    "keyword": "integraciones con clientes, proveedores y carriers",
+    "seoTitle": "Integraciones con clientes, proveedores y carriers: qué es, funciones y diferencias",
+    "description": "Integrar clientes, proveedores y carriers exige acordar identificadores, formatos y eventos que cada parte proporciona.",
+    "order": 172,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Integraciones con clientes, proveedores y carriers en la práctica",
+        "paragraphs": [
+          "Una prueba de entrega debe poder asociarse con el pedido del cliente y con la expedición del transportista."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "173",
+    "slug": "software-logistico-y-erp/implantacion-y-seleccion",
+    "parentId": "157",
+    "type": "subvertical",
+    "title": "Implantación y selección",
+    "keyword": "implantación y selección",
+    "seoTitle": "Implantación y selección: conceptos, procesos y claves",
+    "description": "Seleccionar e implantar software requiere comparar requisitos, validar procesos y preparar la transición operativa.",
+    "order": 173,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Implantación y selección en la práctica",
+        "paragraphs": [
+          "Pilota con un conjunto real de pedidos e incidencias antes de migrar toda la actividad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "174",
+    "slug": "software-logistico-y-erp/implantacion-y-seleccion/como-elegir-un-erp-logistico",
+    "parentId": "173",
+    "type": "informativa",
+    "title": "Cómo elegir un ERP logístico",
+    "keyword": "cómo elegir un erp logístico",
+    "seoTitle": "Cómo elegir un ERP logístico: qué es, funciones y aplicaciones",
+    "description": "Elegir un ERP logístico empieza por identificar operaciones, integraciones, volúmenes y requisitos de información.",
+    "order": 174,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Cómo elegir un ERP logístico en la práctica",
+        "paragraphs": [
+          "Pide una demostración con un caso propio que combine tarificación, incidencias y cambios de pedido."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "175",
+    "slug": "software-logistico-y-erp/implantacion-y-seleccion/implantacion-y-migracion-de-erp",
+    "parentId": "173",
+    "type": "informativa",
+    "title": "Implantación y migración de ERP",
+    "keyword": "implantación y migración de erp",
+    "seoTitle": "Implantación y migración de ERP: qué es, funciones y aplicaciones",
+    "description": "Una implantación de ERP combina configuración, migración de datos, pruebas y formación para el arranque.",
+    "order": 175,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Implantación y migración de ERP en la práctica",
+        "paragraphs": [
+          "Un inventario conciliado en la fecha de corte permite detectar diferencias antes de abrir el nuevo sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "176",
+    "slug": "software-logistico-y-erp/implantacion-y-seleccion/erp-cloud-vs-on-premise",
+    "parentId": "173",
+    "type": "informativa",
+    "title": "ERP cloud vs on-premise",
+    "keyword": "erp cloud vs on-premise",
+    "seoTitle": "ERP cloud vs on-premise: qué es, funciones y aplicaciones",
+    "description": "Un ERP cloud se aloja como servicio o en infraestructura remota. Un ERP on-premise se opera en infraestructura propia o controlada por la organización.",
+    "order": 176,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ERP cloud vs on-premise en la práctica",
+        "paragraphs": [
+          "Compara cómo se gestionan actualizaciones, acceso, copias y recuperación en ambos modelos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "177",
+    "slug": "software-logistico-y-erp/implantacion-y-seleccion/roi-y-coste-de-un-erp-logistico",
+    "parentId": "173",
+    "type": "informativa",
+    "title": "ROI y coste de un ERP logístico",
+    "keyword": "roi y coste de un erp logístico",
+    "seoTitle": "ROI y coste de un ERP logístico: qué es, funciones y aplicaciones",
+    "description": "El ROI de un ERP compara beneficios cuantificables con los costes de implantación y operación en un periodo definido.",
+    "order": 177,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "ROI y coste de un ERP logístico en la práctica",
+        "paragraphs": [
+          "Incluye licencia, integraciones, formación y mantenimiento, y contrasta ahorros estimados con una línea base."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "178",
+    "slug": "software-logistico-y-erp/modulos-y-gestion-empresarial",
+    "parentId": "157",
+    "type": "subvertical",
+    "title": "Módulos y gestión empresarial",
+    "keyword": "módulos y gestión empresarial",
+    "seoTitle": "Módulos y gestión empresarial: conceptos, procesos y claves",
+    "description": "Los módulos empresariales conectan la actividad logística con atención al cliente, análisis, documentación y facturación.",
+    "order": 178,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Módulos y gestión empresarial en la práctica",
+        "paragraphs": [
+          "Un expediente compartido puede enlazar el seguimiento que consulta el cliente con la factura del servicio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "179",
+    "slug": "software-logistico-y-erp/modulos-y-gestion-empresarial/crm-para-logistica",
+    "parentId": "178",
+    "type": "informativa",
+    "title": "CRM para logística",
+    "keyword": "crm para logística",
+    "seoTitle": "CRM para logística: qué es, funciones y aplicaciones",
+    "description": "Un CRM logístico reúne información comercial, conversaciones, oportunidades y solicitudes de clientes.",
+    "order": 179,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "CRM para logística en la práctica",
+        "paragraphs": [
+          "Registrar las incidencias por cuenta permite relacionar la actividad de servicio con las próximas renovaciones."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "180",
+    "slug": "software-logistico-y-erp/modulos-y-gestion-empresarial/business-intelligence-logistico",
+    "parentId": "178",
+    "type": "informativa",
+    "title": "Business Intelligence logístico",
+    "keyword": "business intelligence logístico",
+    "seoTitle": "Business Intelligence logístico: qué es, funciones y aplicaciones",
+    "description": "Business Intelligence en logística consolida datos y métricas para analizar tendencias y desvíos operativos.",
+    "order": 180,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Business Intelligence logístico en la práctica",
+        "paragraphs": [
+          "Un panel por centro necesita definir unidades y periodos comparables antes de ordenar resultados."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181",
+    "slug": "software-logistico-y-erp/modulos-y-gestion-empresarial/portal-de-tracking",
+    "parentId": "178",
+    "type": "informativa",
+    "title": "Portal de tracking",
+    "keyword": "portal de tracking",
+    "seoTitle": "Portal de tracking: qué es, funciones y aplicaciones",
+    "description": "Un portal de tracking permite consultar eventos, estado y previsión de entrega de una expedición.",
+    "order": 181,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Portal de tracking en la práctica",
+        "paragraphs": [
+          "Mostrar la hora del último evento ayuda a interpretar una previsión que todavía espera confirmación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "182",
+    "slug": "software-logistico-y-erp/modulos-y-gestion-empresarial/gestion-documental-y-facturacion-logistica",
+    "parentId": "178",
+    "type": "informativa",
+    "title": "Gestión documental y facturación logística",
+    "keyword": "gestión documental y facturación logística",
+    "seoTitle": "Gestión documental y facturación logística: cómo funciona, proceso y buenas prácticas",
+    "description": "La gestión documental y la facturación enlazan comprobantes operativos, tarifas y cargos de cada servicio.",
+    "order": 182,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión documental y facturación logística en la práctica",
+        "paragraphs": [
+          "Compara la prueba de entrega y los extras autorizados con los conceptos de factura antes de cerrar el expediente."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "183",
+    "slug": "datos-kpi-y-mejora-continua",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Datos, KPI y mejora continua",
+    "keyword": "datos, kpi y mejora continua",
+    "seoTitle": "Datos, KPI y mejora continua: guía, conceptos y áreas clave",
+    "description": "Los datos logísticos permiten medir el servicio, la productividad y las oportunidades de mejora.",
+    "order": 183,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Datos, KPI y mejora continua en la práctica",
+        "paragraphs": [
+          "Una métrica necesita una definición estable y un periodo de referencia para comparar resultados."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "184",
+    "slug": "datos-kpi-y-mejora-continua/kpi-logisticos",
+    "parentId": "183",
+    "type": "subvertical",
+    "title": "KPI logísticos",
+    "keyword": "kpi logísticos",
+    "seoTitle": "KPI logísticos: conceptos, procesos y claves",
+    "description": "Los KPI logísticos resumen el desempeño de actividades como entrega, almacenamiento o preparación.",
+    "order": 184,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "KPI logísticos en la práctica",
+        "paragraphs": [
+          "Un cuadro de mando que solo mide rapidez puede ocultar errores de calidad o costes crecientes."
+        ]
+      }
+    ],
+    "heading": "KPI logísticos: temas y conceptos"
+  },
+  {
+    "id": "185",
+    "slug": "datos-kpi-y-mejora-continua/kpi-logisticos/kpi-logisticos",
+    "parentId": "184",
+    "type": "informativa",
+    "title": "KPI logísticos",
+    "keyword": "kpi logísticos",
+    "seoTitle": "KPI logísticos: qué mide, cómo se calcula y ejemplos",
+    "description": "Los KPI logísticos transforman eventos operativos en medidas comparables de servicio, coste y capacidad.",
+    "order": 185,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "KPI logísticos en la práctica",
+        "paragraphs": [
+          "Define si las entregas puntuales se comparan con la fecha solicitada o con la fecha prometida."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "186",
+    "slug": "datos-kpi-y-mejora-continua/kpi-logisticos/otif-y-fill-rate",
+    "parentId": "184",
+    "type": "informativa",
+    "title": "OTIF y fill rate",
+    "keyword": "otif y fill rate",
+    "seoTitle": "OTIF y fill rate: qué mide, cómo se calcula y ejemplos",
+    "description": "OTIF cuenta entregas completas y a tiempo. Fill rate mide qué proporción de la demanda puede cubrirse según la unidad acordada.",
+    "order": 186,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "OTIF y fill rate en la práctica",
+        "paragraphs": [
+          "Si 90 de 100 pedidos llegan completos y en plazo, el OTIF por pedido es del 90 %."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "187",
+    "slug": "datos-kpi-y-mejora-continua/kpi-logisticos/lead-time-y-order-cycle-time",
+    "parentId": "184",
+    "type": "informativa",
+    "title": "Lead time y order cycle time",
+    "keyword": "lead time y order cycle time",
+    "seoTitle": "Lead time y order cycle time: qué mide, cómo se calcula y ejemplos",
+    "description": "Lead time mide el intervalo entre dos hitos definidos. Order cycle time suele medir desde el inicio del pedido hasta su cumplimiento.",
+    "order": 187,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Lead time y order cycle time en la práctica",
+        "paragraphs": [
+          "Registrar pedido, liberación, expedición y entrega ayuda a localizar en qué tramo se acumula la espera."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "188",
+    "slug": "datos-kpi-y-mejora-continua/kpi-logisticos/coste-logistico",
+    "parentId": "184",
+    "type": "informativa",
+    "title": "Coste logístico",
+    "keyword": "coste logístico",
+    "seoTitle": "Coste logístico: qué mide, cómo se calcula y ejemplos",
+    "description": "El coste logístico incorpora partidas como transporte, manipulación, almacenaje y gestión según el alcance elegido.",
+    "order": 188,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Coste logístico en la práctica",
+        "paragraphs": [
+          "Dividir el coste por pedido y por bulto revela diferencias entre expediciones de tamaño distinto."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "189",
+    "slug": "datos-kpi-y-mejora-continua/productividad-y-capacidad",
+    "parentId": "183",
+    "type": "subvertical",
+    "title": "Productividad y capacidad",
+    "keyword": "productividad y capacidad",
+    "seoTitle": "Productividad y capacidad: conceptos, procesos y claves",
+    "description": "Productividad y capacidad relacionan trabajo realizado, recursos consumidos y límites de la operación.",
+    "order": 189,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Productividad y capacidad en la práctica",
+        "paragraphs": [
+          "Un centro puede procesar más unidades por hora y seguir saturado si toda la preparación vence al mismo tiempo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "190",
+    "slug": "datos-kpi-y-mejora-continua/productividad-y-capacidad/productividad-de-almacen",
+    "parentId": "189",
+    "type": "informativa",
+    "title": "Productividad de almacén",
+    "keyword": "productividad de almacén",
+    "seoTitle": "Productividad de almacén: qué mide, cómo se calcula y ejemplos",
+    "description": "La productividad de almacén mide trabajo completado en relación con recursos empleados.",
+    "order": 190,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Productividad de almacén en la práctica",
+        "paragraphs": [
+          "Preparar 400 líneas en 20 horas de trabajo equivale a 20 líneas por hora trabajada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "191",
+    "slug": "datos-kpi-y-mejora-continua/productividad-y-capacidad/utilizacion-y-ocupacion-de-capacidad",
+    "parentId": "189",
+    "type": "informativa",
+    "title": "Utilización y ocupación de capacidad",
+    "keyword": "utilización y ocupación de capacidad",
+    "seoTitle": "Utilización y ocupación de capacidad: qué es, tipos y claves",
+    "description": "La utilización compara recursos usados con capacidad disponible. La ocupación suele expresar qué parte del espacio o posiciones está llena.",
+    "order": 191,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Utilización y ocupación de capacidad en la práctica",
+        "paragraphs": [
+          "Con 800 posiciones ocupadas de 1.000 utilizables, la ocupación es del 80 %."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "192",
+    "slug": "datos-kpi-y-mejora-continua/productividad-y-capacidad/tiempos-de-muelle-y-dwell-time",
+    "parentId": "189",
+    "type": "informativa",
+    "title": "Tiempos de muelle y dwell time",
+    "keyword": "tiempos de muelle y dwell time",
+    "seoTitle": "Tiempos de muelle y dwell time: qué es, tipos y claves",
+    "description": "El tiempo de muelle mide el uso de una puerta o la duración de su operación. Dwell time se refiere a la permanencia entre eventos definidos.",
+    "order": 192,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Tiempos de muelle y dwell time en la práctica",
+        "paragraphs": [
+          "Compara la entrada al recinto con el inicio de descarga para distinguir la espera de la manipulación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "193",
+    "slug": "datos-kpi-y-mejora-continua/productividad-y-capacidad/nivel-de-servicio-logistico",
+    "parentId": "189",
+    "type": "informativa",
+    "title": "Nivel de servicio logístico",
+    "keyword": "nivel de servicio logístico",
+    "seoTitle": "Nivel de servicio logístico: qué mide, cómo se calcula y ejemplos",
+    "description": "El nivel de servicio expresa en qué medida una operación cumple los compromisos definidos de disponibilidad o entrega.",
+    "order": 193,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Nivel de servicio logístico en la práctica",
+        "paragraphs": [
+          "Una empresa puede medir servicio como el porcentaje de pedidos entregados en la fecha acordada."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "194",
+    "slug": "datos-kpi-y-mejora-continua/mejora-de-procesos",
+    "parentId": "183",
+    "type": "subvertical",
+    "title": "Mejora de procesos",
+    "keyword": "mejora de procesos",
+    "seoTitle": "Mejora de procesos: conceptos, procesos y claves",
+    "description": "La mejora de procesos observa cómo se trabaja y comprueba si un cambio reduce desperdicio, variación o errores.",
+    "order": 194,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Mejora de procesos en la práctica",
+        "paragraphs": [
+          "Mide una línea base antes de comparar el resultado de un piloto en una zona del almacén."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "195",
+    "slug": "datos-kpi-y-mejora-continua/mejora-de-procesos/lean-logistics",
+    "parentId": "194",
+    "type": "informativa",
+    "title": "Lean logistics",
+    "keyword": "lean logistics",
+    "seoTitle": "Lean logistics: qué es, tipos y claves",
+    "description": "Lean logistics busca mejorar el flujo y reducir actividades sin valor para el cliente.",
+    "order": 195,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Lean logistics en la práctica",
+        "paragraphs": [
+          "Acercar materiales de embalaje al puesto de trabajo puede eliminar desplazamientos repetitivos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "196",
+    "slug": "datos-kpi-y-mejora-continua/mejora-de-procesos/kaizen-y-5s",
+    "parentId": "194",
+    "type": "informativa",
+    "title": "Kaizen y 5S",
+    "keyword": "kaizen y 5s",
+    "seoTitle": "Kaizen y 5S: qué es, tipos y claves",
+    "description": "Kaizen impulsa mejoras pequeñas y continuas. 5S organiza el espacio para que el trabajo sea más visible y repetible.",
+    "order": 196,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Kaizen y 5S en la práctica",
+        "paragraphs": [
+          "Ubicar y marcar las herramientas compartidas permite detectar rápidamente qué elementos faltan al acabar el turno."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "197",
+    "slug": "datos-kpi-y-mejora-continua/mejora-de-procesos/six-sigma-en-logistica",
+    "parentId": "194",
+    "type": "informativa",
+    "title": "Six Sigma en logística",
+    "keyword": "six sigma en logística",
+    "seoTitle": "Six Sigma en logística: qué es, tipos y claves",
+    "description": "Six Sigma usa mediciones y análisis para reducir defectos y variabilidad en un proceso.",
+    "order": 197,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Six Sigma en logística en la práctica",
+        "paragraphs": [
+          "Agrupar errores de picking por tipo permite estudiar si provienen de ubicaciones, etiquetas o instrucciones."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "198",
+    "slug": "datos-kpi-y-mejora-continua/mejora-de-procesos/mapeo-de-procesos-y-sop",
+    "parentId": "194",
+    "type": "informativa",
+    "title": "Mapeo de procesos y SOP",
+    "keyword": "mapeo de procesos y sop",
+    "seoTitle": "Mapeo de procesos y SOP: qué es, tipos y claves",
+    "description": "Mapear un proceso muestra pasos y decisiones. Un SOP documenta cómo ejecutar una tarea de forma consistente.",
+    "order": 198,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Mapeo de procesos y SOP en la práctica",
+        "paragraphs": [
+          "El mapa identifica dónde se decide aceptar un bulto dañado y el SOP explica cómo registrarlo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "199",
+    "slug": "logistica-por-sectores-y-modelos",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Logística por sectores y modelos",
+    "keyword": "logística por sectores y modelos",
+    "seoTitle": "Logística por sectores y modelos: guía, conceptos y áreas clave",
+    "description": "El canal, el sector y las características del producto cambian las exigencias logísticas de la operación.",
+    "order": 199,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística por sectores y modelos en la práctica",
+        "paragraphs": [
+          "Una tienda online entrega unidades individuales, mientras una fábrica puede exigir entregas secuenciadas a línea."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "200",
+    "slug": "logistica-por-sectores-y-modelos/canales-y-modelos",
+    "parentId": "199",
+    "type": "subvertical",
+    "title": "Canales y modelos",
+    "keyword": "canales y modelos",
+    "seoTitle": "Canales y modelos: conceptos, procesos y claves",
+    "description": "Los modelos por canal organizan stock, preparación y reparto según el modo en que compra el cliente.",
+    "order": 200,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Canales y modelos en la práctica",
+        "paragraphs": [
+          "Una red puede preparar pedidos a domicilio en un centro y atender recogidas en tienda con stock local."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "201",
+    "slug": "logistica-por-sectores-y-modelos/canales-y-modelos/logistica-ecommerce",
+    "parentId": "200",
+    "type": "informativa",
+    "title": "Logística ecommerce",
+    "keyword": "logística ecommerce",
+    "seoTitle": "Logística ecommerce: qué es, tipos y claves",
+    "description": "La logística ecommerce coordina existencias, preparación de pedidos unitarios, envío y devoluciones de compras online.",
+    "order": 201,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística ecommerce en la práctica",
+        "paragraphs": [
+          "Un pico promocional puede tensionar el ritmo de preparación y las recogidas de paquetería."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "202",
+    "slug": "logistica-por-sectores-y-modelos/canales-y-modelos/logistica-omnicanal",
+    "parentId": "200",
+    "type": "informativa",
+    "title": "Logística omnicanal",
+    "keyword": "logística omnicanal",
+    "seoTitle": "Logística omnicanal: qué es, tipos y claves",
+    "description": "La logística omnicanal coordina inventario y pedidos entre tiendas, web y otros canales de venta.",
+    "order": 202,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística omnicanal en la práctica",
+        "paragraphs": [
+          "Para permitir recogida en tienda, el sistema debe reservar una unidad y confirmar que el personal la ha localizado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "203",
+    "slug": "logistica-por-sectores-y-modelos/canales-y-modelos/logistica-retail",
+    "parentId": "200",
+    "type": "informativa",
+    "title": "Logística retail",
+    "keyword": "logística retail",
+    "seoTitle": "Logística retail: qué es, tipos y claves",
+    "description": "La logística retail repone tiendas y gestiona flujos entre proveedores, centros y puntos de venta.",
+    "order": 203,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística retail en la práctica",
+        "paragraphs": [
+          "Una ruta de reposición puede adaptar cantidades al espacio de tienda y al ritmo de venta por referencia."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "204",
+    "slug": "logistica-por-sectores-y-modelos/canales-y-modelos/logistica-urbana-y-microfulfillment",
+    "parentId": "200",
+    "type": "informativa",
+    "title": "Logística urbana y microfulfillment",
+    "keyword": "logística urbana y microfulfillment",
+    "seoTitle": "Logística urbana y microfulfillment: qué es, tipos y claves",
+    "description": "La logística urbana opera con restricciones de densidad, acceso y espacio. El microfulfillment acerca capacidad de preparación a la demanda.",
+    "order": 204,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística urbana y microfulfillment en la práctica",
+        "paragraphs": [
+          "Un centro pequeño cerca de la ciudad puede reducir el último tramo y requiere reposiciones frecuentes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "205",
+    "slug": "logistica-por-sectores-y-modelos/industria-y-gran-consumo",
+    "parentId": "199",
+    "type": "subvertical",
+    "title": "Industria y gran consumo",
+    "keyword": "industria y gran consumo",
+    "seoTitle": "Industria y gran consumo: conceptos, procesos y claves",
+    "description": "Industria y gran consumo combinan abastecimiento, producción y distribución con necesidades distintas de tiempo y stock.",
+    "order": 205,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Industria y gran consumo en la práctica",
+        "paragraphs": [
+          "Para dimensionar recursos, separa envíos a planta, entregas a tienda y movimientos de materiales en reserva."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "206",
+    "slug": "logistica-por-sectores-y-modelos/industria-y-gran-consumo/logistica-industrial",
+    "parentId": "205",
+    "type": "informativa",
+    "title": "Logística industrial",
+    "keyword": "logística industrial",
+    "seoTitle": "Logística industrial: qué es, tipos y claves",
+    "description": "La logística industrial abastece procesos de fabricación y gestiona movimientos de componentes y producto terminado.",
+    "order": 206,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística industrial en la práctica",
+        "paragraphs": [
+          "Una entrega programada puede alimentar directamente un área de producción si el material pasa recepción a tiempo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "207",
+    "slug": "logistica-por-sectores-y-modelos/industria-y-gran-consumo/logistica-de-automocion",
+    "parentId": "205",
+    "type": "informativa",
+    "title": "Logística de automoción",
+    "keyword": "logística de automoción",
+    "seoTitle": "Logística de automoción: qué es, tipos y claves",
+    "description": "La logística de automoción coordina componentes, producción y distribución con calendarios y secuencias definidos.",
+    "order": 207,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística de automoción en la práctica",
+        "paragraphs": [
+          "Entregar asientos en la secuencia de montaje reduce almacenamiento a línea y exige sincronización con producción."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "208",
+    "slug": "logistica-por-sectores-y-modelos/industria-y-gran-consumo/logistica-alimentaria-y-cadena-de-frio",
+    "parentId": "205",
+    "type": "informativa",
+    "title": "Logística alimentaria y cadena de frío",
+    "keyword": "logística alimentaria y cadena de frío",
+    "seoTitle": "Logística alimentaria y cadena de frío: qué es, tipos y claves",
+    "description": "La logística alimentaria gestiona vida útil y trazabilidad. La cadena de frío mantiene condiciones térmicas adecuadas en cada tramo.",
+    "order": 208,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística alimentaria y cadena de frío en la práctica",
+        "paragraphs": [
+          "Cotejar temperatura al recibir y registrar lotes permite investigar una desviación y su alcance."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "209",
+    "slug": "logistica-por-sectores-y-modelos/industria-y-gran-consumo/logistica-farmaceutica",
+    "parentId": "205",
+    "type": "informativa",
+    "title": "Logística farmacéutica",
+    "keyword": "logística farmacéutica",
+    "seoTitle": "Logística farmacéutica: qué es, tipos y claves",
+    "description": "La logística farmacéutica requiere trazabilidad, conservación y controles ajustados al producto y al canal.",
+    "order": 209,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística farmacéutica en la práctica",
+        "paragraphs": [
+          "Cuando hay excursiones de temperatura, documenta duración y condiciones para evaluar las unidades afectadas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "210",
+    "slug": "logistica-por-sectores-y-modelos/operativas-especiales",
+    "parentId": "199",
+    "type": "subvertical",
+    "title": "Operativas especiales",
+    "keyword": "operativas especiales",
+    "seoTitle": "Operativas especiales: conceptos, procesos y claves",
+    "description": "Las operativas especiales adaptan instalaciones, equipos y controles a mercancías o contextos particulares.",
+    "order": 210,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Operativas especiales en la práctica",
+        "paragraphs": [
+          "La planificación puede requerir validar ruta, accesos o equipos antes de confirmar fecha y capacidad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "211",
+    "slug": "logistica-por-sectores-y-modelos/operativas-especiales/logistica-de-mercancias-peligrosas",
+    "parentId": "210",
+    "type": "informativa",
+    "title": "Logística de mercancías peligrosas",
+    "keyword": "logística de mercancías peligrosas",
+    "seoTitle": "Logística de mercancías peligrosas: qué es, tipos y claves",
+    "description": "La logística de mercancías peligrosas aborda identificación, embalaje, documentación y manipulación de cargas con riesgos específicos.",
+    "order": 211,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística de mercancías peligrosas en la práctica",
+        "paragraphs": [
+          "El tratamiento de una expedición depende de su clasificación y del modo de transporte previsto."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "212",
+    "slug": "logistica-por-sectores-y-modelos/operativas-especiales/project-cargo-y-carga-sobredimensionada",
+    "parentId": "210",
+    "type": "informativa",
+    "title": "Project cargo y carga sobredimensionada",
+    "keyword": "project cargo y carga sobredimensionada",
+    "seoTitle": "Project cargo y carga sobredimensionada: qué es, tipos y claves",
+    "description": "Project cargo organiza envíos complejos de equipos, a menudo pesados o sobredimensionados.",
+    "order": 212,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Project cargo y carga sobredimensionada en la práctica",
+        "paragraphs": [
+          "La planificación de una máquina industrial puede exigir comprobar radios de giro, gálibos y medios de elevación."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "213",
+    "slug": "logistica-por-sectores-y-modelos/operativas-especiales/carga-perecedera-y-refrigerada",
+    "parentId": "210",
+    "type": "informativa",
+    "title": "Carga perecedera y refrigerada",
+    "keyword": "carga perecedera y refrigerada",
+    "seoTitle": "Carga perecedera y refrigerada: qué es, tipos y claves",
+    "description": "La carga perecedera necesita proteger su vida útil con plazos, embalaje y condiciones térmicas adecuados.",
+    "order": 213,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Carga perecedera y refrigerada en la práctica",
+        "paragraphs": [
+          "Preenfriar el producto y vigilar el tiempo fuera de cámara ayuda a reducir desviaciones durante la carga."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "214",
+    "slug": "logistica-por-sectores-y-modelos/operativas-especiales/logistica-humanitaria-y-hospitalaria",
+    "parentId": "210",
+    "type": "informativa",
+    "title": "Logística humanitaria y hospitalaria",
+    "keyword": "logística humanitaria y hospitalaria",
+    "seoTitle": "Logística humanitaria y hospitalaria: qué es, tipos y claves",
+    "description": "La logística humanitaria y hospitalaria prioriza disponibilidad y distribución de suministros críticos en contextos exigentes.",
+    "order": 214,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística humanitaria y hospitalaria en la práctica",
+        "paragraphs": [
+          "En una emergencia, identificar consumos y existencias por punto de atención ayuda a repartir suministros escasos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "215",
+    "slug": "sostenibilidad-riesgos-y-continuidad",
+    "parentId": "inicio",
+    "type": "hub",
+    "title": "Sostenibilidad, riesgos y continuidad",
+    "keyword": "sostenibilidad, riesgos y continuidad",
+    "seoTitle": "Sostenibilidad, riesgos y continuidad: guía, conceptos y áreas clave",
+    "description": "Sostenibilidad, riesgos y continuidad abordan el impacto de las operaciones y su capacidad de responder a interrupciones.",
+    "order": 215,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Sostenibilidad, riesgos y continuidad en la práctica",
+        "paragraphs": [
+          "Cambiar un modo de transporte se puede valorar por emisiones, plazo y exposición a fallos del itinerario."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "216",
+    "slug": "sostenibilidad-riesgos-y-continuidad/sostenibilidad-logistica",
+    "parentId": "215",
+    "type": "subvertical",
+    "title": "Sostenibilidad logística",
+    "keyword": "sostenibilidad logística",
+    "seoTitle": "Sostenibilidad logística: conceptos, procesos y claves",
+    "description": "La sostenibilidad logística analiza recursos, emisiones y residuos de los flujos de mercancías.",
+    "order": 216,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Sostenibilidad logística en la práctica",
+        "paragraphs": [
+          "Medir el impacto por tonelada entregada permite comparar alternativas con volúmenes diferentes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "217",
+    "slug": "sostenibilidad-riesgos-y-continuidad/sostenibilidad-logistica/logistica-sostenible",
+    "parentId": "216",
+    "type": "informativa",
+    "title": "Logística sostenible",
+    "keyword": "logística sostenible",
+    "seoTitle": "Logística sostenible: qué es, tipos y claves",
+    "description": "La logística sostenible busca reducir impactos de almacenamiento, transporte y embalaje manteniendo el servicio necesario.",
+    "order": 217,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística sostenible en la práctica",
+        "paragraphs": [
+          "Revisar kilómetros en vacío y ocupación de vehículos orienta las primeras medidas en una flota."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "218",
+    "slug": "sostenibilidad-riesgos-y-continuidad/sostenibilidad-logistica/huella-de-carbono-logistica",
+    "parentId": "216",
+    "type": "informativa",
+    "title": "Huella de carbono logística",
+    "keyword": "huella de carbono logística",
+    "seoTitle": "Huella de carbono logística: qué es, tipos y claves",
+    "description": "La huella de carbono logística estima emisiones asociadas a operaciones como transporte, almacenaje y manipulación.",
+    "order": 218,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Huella de carbono logística en la práctica",
+        "paragraphs": [
+          "Para comparar operadores, alinea los límites de cálculo y la unidad de actividad que reporta cada uno."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "219",
+    "slug": "sostenibilidad-riesgos-y-continuidad/sostenibilidad-logistica/descarbonizacion-del-transporte",
+    "parentId": "216",
+    "type": "informativa",
+    "title": "Descarbonización del transporte",
+    "keyword": "descarbonización del transporte",
+    "seoTitle": "Descarbonización del transporte: qué es, cómo funciona y documentación",
+    "description": "Descarbonizar el transporte implica reducir emisiones mediante cambios de rutas, modos, energía, equipos o nivel de ocupación.",
+    "order": 219,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Descarbonización del transporte en la práctica",
+        "paragraphs": [
+          "Consolidar viajes puede reducir kilómetros por unidad, siempre que el cambio encaje en el plazo de entrega."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "220",
+    "slug": "sostenibilidad-riesgos-y-continuidad/sostenibilidad-logistica/embalaje-sostenible",
+    "parentId": "216",
+    "type": "informativa",
+    "title": "Embalaje sostenible",
+    "keyword": "embalaje sostenible",
+    "seoTitle": "Embalaje sostenible: qué es, tipos y claves",
+    "description": "El embalaje sostenible busca proteger el producto usando materiales y diseños que reduzcan impactos durante su ciclo de vida.",
+    "order": 220,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Embalaje sostenible en la práctica",
+        "paragraphs": [
+          "Una caja más pequeña puede ahorrar material y espacio, pero debe superar las pruebas de resistencia del envío."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "221",
+    "slug": "sostenibilidad-riesgos-y-continuidad/logistica-inversa",
+    "parentId": "215",
+    "type": "subvertical",
+    "title": "Logística inversa",
+    "keyword": "logística inversa",
+    "seoTitle": "Logística inversa: conceptos, procesos y claves",
+    "description": "La logística inversa encauza productos y materiales desde el usuario hacia procesos de devolución, recuperación o tratamiento.",
+    "order": 221,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística inversa en la práctica",
+        "paragraphs": [
+          "Una misma devolución puede terminar en reintegración a stock, reparación o reciclaje según su estado."
+        ]
+      }
+    ],
+    "heading": "Logística inversa: temas y conceptos"
+  },
+  {
+    "id": "222",
+    "slug": "sostenibilidad-riesgos-y-continuidad/logistica-inversa/logistica-inversa",
+    "parentId": "221",
+    "type": "informativa",
+    "title": "Logística inversa",
+    "keyword": "logística inversa",
+    "seoTitle": "Logística inversa: qué es, tipos y claves",
+    "description": "La logística inversa gestiona el flujo de mercancías desde el punto de uso de vuelta a la cadena.",
+    "order": 222,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Logística inversa en la práctica",
+        "paragraphs": [
+          "Clasificar unidades al llegar a un centro de retornos permite asignar el destino según su estado."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "223",
+    "slug": "sostenibilidad-riesgos-y-continuidad/logistica-inversa/gestion-de-devoluciones",
+    "parentId": "221",
+    "type": "informativa",
+    "title": "Gestión de devoluciones",
+    "keyword": "gestión de devoluciones",
+    "seoTitle": "Gestión de devoluciones: cómo funciona, proceso y buenas prácticas",
+    "description": "Gestionar devoluciones coordina autorización, recogida, recepción, inspección y resolución para cada pedido.",
+    "order": 223,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Gestión de devoluciones en la práctica",
+        "paragraphs": [
+          "Un motivo de devolución bien registrado ayuda a distinguir fallos de producto de daños en transporte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "224",
+    "slug": "sostenibilidad-riesgos-y-continuidad/logistica-inversa/reacondicionamiento-y-recuperacion",
+    "parentId": "221",
+    "type": "informativa",
+    "title": "Reacondicionamiento y recuperación",
+    "keyword": "reacondicionamiento y recuperación",
+    "seoTitle": "Reacondicionamiento y recuperación: qué es, tipos y claves",
+    "description": "Reacondicionar recupera la funcionalidad o presentación de un producto para un nuevo uso.",
+    "order": 224,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Reacondicionamiento y recuperación en la práctica",
+        "paragraphs": [
+          "La inspección inicial permite estimar si la reparación compensa frente al valor recuperable de la unidad."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "225",
+    "slug": "sostenibilidad-riesgos-y-continuidad/logistica-inversa/economia-circular-en-logistica",
+    "parentId": "221",
+    "type": "informativa",
+    "title": "Economía circular en logística",
+    "keyword": "economía circular en logística",
+    "seoTitle": "Economía circular en logística: qué es, tipos y claves",
+    "description": "La economía circular busca prolongar el uso de productos y materiales mediante reutilización, reparación y recuperación.",
+    "order": 225,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Economía circular en logística en la práctica",
+        "paragraphs": [
+          "Un circuito de palés retornables requiere controlar su devolución y su estado antes de volver a usarlos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "226",
+    "slug": "sostenibilidad-riesgos-y-continuidad/riesgos-y-continuidad",
+    "parentId": "215",
+    "type": "subvertical",
+    "title": "Riesgos y continuidad",
+    "keyword": "riesgos y continuidad",
+    "seoTitle": "Riesgos y continuidad: conceptos, procesos y claves",
+    "description": "Gestionar riesgos y continuidad implica anticipar interrupciones y preparar una respuesta operativa.",
+    "order": 226,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Riesgos y continuidad en la práctica",
+        "paragraphs": [
+          "Simular la caída de un centro revela qué rutas, datos y recursos deben estar disponibles para recuperar el servicio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "227",
+    "slug": "sostenibilidad-riesgos-y-continuidad/riesgos-y-continuidad/riesgos-logisticos",
+    "parentId": "226",
+    "type": "informativa",
+    "title": "Riesgos logísticos",
+    "keyword": "riesgos logísticos",
+    "seoTitle": "Riesgos logísticos: qué es, tipos y claves",
+    "description": "Los riesgos logísticos afectan a capacidad, mercancías, tiempos o información necesaria para operar.",
+    "order": 227,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Riesgos logísticos en la práctica",
+        "paragraphs": [
+          "Una matriz puede ordenar un riesgo por probabilidad, impacto y capacidad de detección."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "228",
+    "slug": "sostenibilidad-riesgos-y-continuidad/riesgos-y-continuidad/plan-de-contingencia-logistica",
+    "parentId": "226",
+    "type": "informativa",
+    "title": "Plan de contingencia logística",
+    "keyword": "plan de contingencia logística",
+    "seoTitle": "Plan de contingencia logística: qué es, tipos y claves",
+    "description": "Un plan de contingencia define qué hacer ante una interrupción concreta y quién activa la respuesta.",
+    "order": 228,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Plan de contingencia logística en la práctica",
+        "paragraphs": [
+          "Para un cierre de terminal, reúne rutas alternativas, contactos y criterios para reprogramar expediciones."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "229",
+    "slug": "sostenibilidad-riesgos-y-continuidad/riesgos-y-continuidad/business-continuity-en-logistica",
+    "parentId": "226",
+    "type": "informativa",
+    "title": "Business continuity en logística",
+    "keyword": "business continuity en logística",
+    "seoTitle": "Business continuity en logística: qué es, tipos y claves",
+    "description": "La continuidad de negocio prepara a la empresa para sostener y recuperar operaciones críticas durante una interrupción.",
+    "order": 229,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Business continuity en logística en la práctica",
+        "paragraphs": [
+          "Determinar el tiempo máximo admisible de parada ayuda a ordenar la restauración de sistemas y procesos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "230",
+    "slug": "sostenibilidad-riesgos-y-continuidad/riesgos-y-continuidad/seguridad-y-seguro-de-mercancias",
+    "parentId": "226",
+    "type": "informativa",
+    "title": "Seguridad y seguro de mercancías",
+    "keyword": "seguridad y seguro de mercancías",
+    "seoTitle": "Seguridad y seguro de mercancías: qué es, tipos y claves",
+    "description": "La seguridad de mercancías previene daños y pérdidas. El seguro cubre determinados eventos según sus condiciones.",
+    "order": 230,
+    "status": "draft",
+    "sections": [
+      {
+        "heading": "Seguridad y seguro de mercancías en la práctica",
+        "paragraphs": [
+          "Conserva fotos, documentos y registros de custodia para reconstruir lo ocurrido en una incidencia."
         ]
       }
     ]

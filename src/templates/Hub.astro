@@ -5,4 +5,7 @@ import { children, type Page } from '../lib/content';
 interface Props { page: Page }
 const { page } = Astro.props;
 ---
-<div class="page-heading"><p class="eyebrow">Área de conocimiento</p><h1>{page.title}</h1><p class="lead">{page.description}</p></div><div class="content-grid"><section><h2>Explora este {page.type === 'hub' ? 'área' : 'tema'}</h2><p>Empieza por uno de los temas de esta área.</p><Cards pages={children(page.id)} /></section><ContextNav page={page} /></div>
+<div class="page-heading"><p class="eyebrow">Área de conocimiento</p><h1>{page.heading ?? page.title}</h1><p class="lead">{page.description}</p></div><div class="content-grid"><div class="prose">
+  {page.sections.map(section => <section><h2>{section.heading}</h2>{section.paragraphs.map(text => <p>{text}</p>)}</section>)}
+  <section><h2>Temas de esta área</h2><Cards pages={children(page.id)} /></section>
+</div><ContextNav page={page} /></div>

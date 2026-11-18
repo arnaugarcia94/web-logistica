@@ -1,6 +1,6 @@
 import data from '../data/pages.json';
 export type PageType = 'home' | 'hub' | 'subvertical' | 'informativa';
-export interface Page { id: string; slug: string; parentId: string | null; type: PageType; title: string; description: string; seoTitle: string; order: number; status: 'draft' | 'published'; sections: { heading: string; paragraphs: string[] }[] }
+export interface Page { id: string; slug: string; parentId: string | null; type: PageType; title: string; heading?: string; keyword?: string; description: string; seoTitle: string; order: number; status: 'draft' | 'published'; sections: { heading: string; paragraphs: string[] }[] }
 export const pages = data as Page[];
 export const href = (page: Page) => page.slug ? `/${page.slug}/` : '/';
 export const children = (id: string) => pages.filter(p => p.parentId === id).sort((a,b) => a.order-b.order);
@@ -15,6 +15,7 @@ for (const page of pages) {
   if (ids.has(page.id) || slugs.has(page.slug)) throw new Error(`Duplicate page: ${page.id}`);
   ids.add(page.id); slugs.add(page.slug);
   if (page.slug && !/^[a-z0-9-]+(?:\/[a-z0-9-]+)*$/.test(page.slug)) throw new Error(`Invalid slug: ${page.slug}`);
+  if (page.type !== 'home' && (!page.parentId || !page.keyword || !page.sections.length)) throw new Error(`Incomplete architecture row: ${page.id}`);
   if (!page.title || !page.description || !page.seoTitle) throw new Error(`Missing metadata: ${page.id}`);
   if (!['home','hub','subvertical','informativa'].includes(page.type)) throw new Error(`Invalid type: ${page.id}`);
   const seen = new Set([page.id]); let current = page;

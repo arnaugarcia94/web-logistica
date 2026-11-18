@@ -1,7 +1,9 @@
 ---
 import ContextNav from '../components/ContextNav.astro';
-import type { Page } from '../lib/content';
+import { ancestors, href, type Page } from '../lib/content';
 interface Props { page: Page }
 const { page } = Astro.props;
+const parent = ancestors(page).at(-1);
 ---
-<div class="page-heading"><p class="eyebrow">Guía introductoria</p><h1>{page.title}</h1><p class="lead">{page.description}</p></div><div class="content-grid"><article class="prose">{page.sections.map(section => <section><h2>{section.heading}</h2>{section.paragraphs.map(text => <p>{text}</p>)}</section>)}</article><ContextNav page={page} /></div>
+<div class="page-heading"><p class="eyebrow">Guía introductoria</p><h1>{page.heading ?? page.title}</h1><p class="lead">{page.description}</p></div><div class="content-grid"><article class="prose">{page.sections.map(section => <section><h2>{section.heading}</h2>{section.paragraphs.map(text => <p>{text}</p>)}</section>)}
+{parent && <section><h2>Contexto dentro de {parent.title}</h2><p>{parent.description}</p><p><a href={href(parent)}>Explorar {parent.title}</a></p></section>}</article><ContextNav page={page} /></div>

@@ -11,4 +11,4 @@ const { page } = Astro.props;
 const templates = { home: Home, hub: Hub, subvertical: Subvertical, informativa: Informative };
 const Template = templates[page.type];
 ---
-<BaseLayout page={page}>{page.type === 'home' ? <Template page={page} /> : <div class="container inner-page"><Breadcrumbs page={page} /><p class="draft-notice">Ejemplo provisional · Estructura y contenido pendientes de revisión.</p><Template page={page} /></div>}</BaseLayout>
+<BaseLayout page={page}>{page.type === 'home' ? <Template page={page} /> : <div class="container inner-page"><Breadcrumbs page={page} />{page.status === 'draft' && <p class="draft-notice">Contenido provisional pendiente de revisión editorial.</p>}<Template page={page} /></div>}</BaseLayout>
